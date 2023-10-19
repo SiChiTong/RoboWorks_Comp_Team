@@ -1,0 +1,4 @@
+[console_scripts]
+ROSimage_point_cloud = image_point_cloud_package.ROSimage_point_cloud:main
+image_point_cloud_node = image_point_cloud_package.image_point_cloud:main
+

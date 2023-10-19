@@ -1,0 +1,26 @@
+[0.679s] Invoking command in '/home/jasper/image_point_cloud_package': PYTHONPATH=/home/jasper/image_point_cloud_package/build/image_point_cloud_package/prefix_override:/home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/image_point_cloud_package build --build-base /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build install --record /home/jasper/image_point_cloud_package/build/image_point_cloud_package/install.log --single-version-externally-managed
+[0.945s] running egg_info
+[0.945s] writing build/image_point_cloud_package/image_point_cloud_package.egg-info/PKG-INFO
+[0.946s] writing dependency_links to build/image_point_cloud_package/image_point_cloud_package.egg-info/dependency_links.txt
+[0.946s] writing entry points to build/image_point_cloud_package/image_point_cloud_package.egg-info/entry_points.txt
+[0.946s] writing requirements to build/image_point_cloud_package/image_point_cloud_package.egg-info/requires.txt
+[0.946s] writing top-level names to build/image_point_cloud_package/image_point_cloud_package.egg-info/top_level.txt
+[0.948s] reading manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+[0.949s] writing manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+[0.950s] running build
+[0.950s] running build_py
+[0.950s] copying image_point_cloud_package/image_point_cloud.py -> /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package
+[0.950s] running install
+[0.950s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.950s]   warnings.warn(
+[0.950s] running install_lib
+[0.952s] copying /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package/image_point_cloud.py -> /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package
+[0.953s] byte-compiling /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package/image_point_cloud.py to image_point_cloud.cpython-310.pyc
+[0.954s] running install_data
+[0.955s] running install_egg_info
+[0.956s] removing '/home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package-0.0.0-py3.10.egg-info' (and everything under it)
+[0.957s] Copying build/image_point_cloud_package/image_point_cloud_package.egg-info to /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package-0.0.0-py3.10.egg-info
+[0.957s] running install_scripts
+[0.976s] Installing image_point_cloud_node script to /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/image_point_cloud_package
+[0.977s] writing list of installed files to '/home/jasper/image_point_cloud_package/build/image_point_cloud_package/install.log'
+[0.999s] Invoked command in '/home/jasper/image_point_cloud_package' returned '0': PYTHONPATH=/home/jasper/image_point_cloud_package/build/image_point_cloud_package/prefix_override:/home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/image_point_cloud_package build --build-base /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build install --record /home/jasper/image_point_cloud_package/build/image_point_cloud_package/install.log --single-version-externally-managed

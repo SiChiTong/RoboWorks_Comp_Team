@@ -1,0 +1,19 @@
+running egg_info
+writing build/image_point_cloud_package/image_point_cloud_package.egg-info/PKG-INFO
+writing dependency_links to build/image_point_cloud_package/image_point_cloud_package.egg-info/dependency_links.txt
+writing entry points to build/image_point_cloud_package/image_point_cloud_package.egg-info/entry_points.txt
+writing requirements to build/image_point_cloud_package/image_point_cloud_package.egg-info/requires.txt
+writing top-level names to build/image_point_cloud_package/image_point_cloud_package.egg-info/top_level.txt
+reading manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+writing manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+running build
+running build_py
+copying image_point_cloud_package/ROSimage_point_cloud.py -> /home/jasper/Roboworks/Robocup2024/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+copying /home/jasper/Roboworks/Robocup2024/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package/ROSimage_point_cloud.py -> /home/jasper/Roboworks/Robocup2024/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package
+byte-compiling /home/jasper/Roboworks/Robocup2024/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package/ROSimage_point_cloud.py to ROSimage_point_cloud.cpython-310.pyc
+running install_data
+error: can't copy 'resource/image_point_cloud_package': doesn't exist or not a regular file

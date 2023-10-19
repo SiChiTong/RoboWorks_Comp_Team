@@ -1,0 +1,37 @@
+running egg_info
+creating build/image_point_cloud_package/image_point_cloud_package.egg-info
+writing build/image_point_cloud_package/image_point_cloud_package.egg-info/PKG-INFO
+writing dependency_links to build/image_point_cloud_package/image_point_cloud_package.egg-info/dependency_links.txt
+writing entry points to build/image_point_cloud_package/image_point_cloud_package.egg-info/entry_points.txt
+writing requirements to build/image_point_cloud_package/image_point_cloud_package.egg-info/requires.txt
+writing top-level names to build/image_point_cloud_package/image_point_cloud_package.egg-info/top_level.txt
+writing manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+reading manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+writing manifest file 'build/image_point_cloud_package/image_point_cloud_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build
+creating /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib
+creating /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package
+copying image_point_cloud_package/__init__.py -> /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package
+copying image_point_cloud_package/image_point_cloud.py -> /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package
+copying /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package/__init__.py -> /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package
+copying /home/jasper/image_point_cloud_package/build/image_point_cloud_package/build/lib/image_point_cloud_package/image_point_cloud.py -> /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package
+byte-compiling /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package/image_point_cloud.py to image_point_cloud.cpython-310.pyc
+running install_data
+creating /home/jasper/image_point_cloud_package/install/image_point_cloud_package/share/ament_index
+creating /home/jasper/image_point_cloud_package/install/image_point_cloud_package/share/ament_index/resource_index
+creating /home/jasper/image_point_cloud_package/install/image_point_cloud_package/share/ament_index/resource_index/packages
+copying resource/image_point_cloud_package -> /home/jasper/image_point_cloud_package/install/image_point_cloud_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/jasper/image_point_cloud_package/install/image_point_cloud_package/share/image_point_cloud_package
+running install_egg_info
+Copying build/image_point_cloud_package/image_point_cloud_package.egg-info to /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/python3.10/site-packages/image_point_cloud_package-0.0.0-py3.10.egg-info
+running install_scripts
+Installing image_point_cloud_node script to /home/jasper/image_point_cloud_package/install/image_point_cloud_package/lib/image_point_cloud_package
+writing list of installed files to '/home/jasper/image_point_cloud_package/build/image_point_cloud_package/install.log'
