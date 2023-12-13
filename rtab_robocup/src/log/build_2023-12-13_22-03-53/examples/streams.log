@@ -1,0 +1,60 @@
+[0.267s] Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/rtabmap_roboworks/examples -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/examples
+[0.491s] -- The C compiler identification is GNU 11.4.0
+[0.725s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting C compiler ABI info
+[0.845s] -- Detecting C compiler ABI info - done
+[0.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.862s] -- Detecting C compile features
+[0.862s] -- Detecting C compile features - done
+[0.868s] -- Detecting CXX compiler ABI info
+[0.982s] -- Detecting CXX compiler ABI info - done
+[0.990s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.991s] -- Detecting CXX compile features
+[0.991s] -- Detecting CXX compile features - done
+[1.002s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.253s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.544s] -- Configuring done
+[1.548s] -- Generating done
+[1.550s] -- Build files have been written to: /home/jasper/rtab_robocup/src/build/examples
+[1.556s] Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/rtabmap_roboworks/examples -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/examples
+[1.559s] Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/examples -- -j8 -l8
+[1.620s] Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/examples -- -j8 -l8
+[1.681s] Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/examples
+[1.696s] -- Install configuration: ""
+[1.696s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch
+[1.696s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/config
+[1.696s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/config/euroc_left.yaml
+[1.696s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/config/slam_D405x3_config.rviz
+[1.696s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/config/slam_D405x2_config.rviz
+[1.697s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/config/euroc_right.yaml
+[1.697s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/realsense_d400.launch.py
+[1.697s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/vlp16.launch.py
+[1.698s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/realsense_d435i_infra.launch.py
+[1.698s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/l1Testing.py
+[1.698s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/realsense_d435i_color.launch.py
+[1.698s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/rtabmap_D405x3.launch.py
+[1.698s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/uniL1.launch.py
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/realsense_d435i_stereo.launch.py
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/euroc_datasets.launch.py
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/rgbdslam_datasets.launch.py
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/k4a.launch.py
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/.vscode
+[1.699s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/.vscode/c_cpp_properties.json
+[1.700s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/.vscode/settings.json
+[1.700s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/launch/rtabmap_D405x2.launch.py
+[1.700s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/ament_index/resource_index/package_run_dependencies/examples
+[1.700s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/ament_index/resource_index/parent_prefix_path/examples
+[1.700s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/environment/ament_prefix_path.sh
+[1.701s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/environment/ament_prefix_path.dsv
+[1.701s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/environment/path.sh
+[1.701s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/environment/path.dsv
+[1.701s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/local_setup.bash
+[1.702s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/local_setup.sh
+[1.702s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/local_setup.zsh
+[1.702s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/local_setup.dsv
+[1.702s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/package.dsv
+[1.702s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/ament_index/resource_index/packages/examples
+[1.703s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/cmake/examplesConfig.cmake
+[1.703s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/cmake/examplesConfig-version.cmake
+[1.703s] -- Installing: /home/jasper/rtab_robocup/src/install/examples/share/examples/package.xml
+[1.704s] Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/examples

@@ -1,0 +1,16 @@
+/home/jasper/rtab_robocup/install/sensors/lib/sensors/L1_filter
+/home/jasper/rtab_robocup/install/sensors/share/ament_index/resource_index/package_run_dependencies/sensors
+/home/jasper/rtab_robocup/install/sensors/share/ament_index/resource_index/parent_prefix_path/sensors
+/home/jasper/rtab_robocup/install/sensors/share/sensors/environment/ament_prefix_path.sh
+/home/jasper/rtab_robocup/install/sensors/share/sensors/environment/ament_prefix_path.dsv
+/home/jasper/rtab_robocup/install/sensors/share/sensors/environment/path.sh
+/home/jasper/rtab_robocup/install/sensors/share/sensors/environment/path.dsv
+/home/jasper/rtab_robocup/install/sensors/share/sensors/local_setup.bash
+/home/jasper/rtab_robocup/install/sensors/share/sensors/local_setup.sh
+/home/jasper/rtab_robocup/install/sensors/share/sensors/local_setup.zsh
+/home/jasper/rtab_robocup/install/sensors/share/sensors/local_setup.dsv
+/home/jasper/rtab_robocup/install/sensors/share/sensors/package.dsv
+/home/jasper/rtab_robocup/install/sensors/share/ament_index/resource_index/packages/sensors
+/home/jasper/rtab_robocup/install/sensors/share/sensors/cmake/sensorsConfig.cmake
+/home/jasper/rtab_robocup/install/sensors/share/sensors/cmake/sensorsConfig-version.cmake
+/home/jasper/rtab_robocup/install/sensors/share/sensors/package.xml

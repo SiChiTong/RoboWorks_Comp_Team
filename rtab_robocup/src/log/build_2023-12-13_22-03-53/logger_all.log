@@ -1,0 +1,281 @@
+[1.569s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.569s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f999b666d10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f999b667c70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f999b667c70>>, mixin_verb=('build',))
+[1.632s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.633s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.633s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jasper/rtab_robocup/src'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.633s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.644s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['ignore', 'ignore_ament_install']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ignore'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ignore_ament_install'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['colcon_pkg']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'colcon_pkg'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['colcon_meta']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'colcon_meta'
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extensions ['ros']
+[1.645s] Level 1:colcon.colcon_core.package_identification:_identify(pointcloud_to_laserscan) by extension 'ros'
+[1.649s] DEBUG:colcon.colcon_core.package_identification:Package 'pointcloud_to_laserscan' with type 'ros.ament_cmake' and name 'pointcloud_to_laserscan'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['ignore', 'ignore_ament_install']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'ignore'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'ignore_ament_install'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['colcon_pkg']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'colcon_pkg'
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['colcon_meta']
+[1.649s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'colcon_meta'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['ros']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'ros'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['cmake', 'python']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'cmake'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'python'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extensions ['python_setup_py']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks) by extension 'python_setup_py'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extensions ['ignore', 'ignore_ament_install']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extension 'ignore'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extension 'ignore_ament_install'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extensions ['colcon_pkg']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extension 'colcon_pkg'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extensions ['colcon_meta']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extension 'colcon_meta'
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extensions ['ros']
+[1.650s] Level 1:colcon.colcon_core.package_identification:_identify(rtabmap_roboworks/examples) by extension 'ros'
+[1.651s] DEBUG:colcon.colcon_core.package_identification:Package 'rtabmap_roboworks/examples' with type 'ros.ament_cmake' and name 'examples'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extensions ['ignore', 'ignore_ament_install']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extension 'ignore'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extension 'ignore_ament_install'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extensions ['colcon_pkg']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extension 'colcon_pkg'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extensions ['colcon_meta']
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extension 'colcon_meta'
+[1.651s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extensions ['ros']
+[1.652s] Level 1:colcon.colcon_core.package_identification:_identify(sensors) by extension 'ros'
+[1.652s] DEBUG:colcon.colcon_core.package_identification:Package 'sensors' with type 'ros.ament_cmake' and name 'sensors'
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.653s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.766s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.807s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/jasper/ws_moveit2/install
+[1.828s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 432 installed packages in /opt/ros/humble
+[1.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_args' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_target' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_clean_cache' from command line to 'False'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_clean_first' from command line to 'False'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'cmake_force_configure' from command line to 'False'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'ament_cmake_args' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'catkin_cmake_args' from command line to 'None'
+[1.955s] Level 5:colcon.colcon_core.verb:set package 'examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.955s] DEBUG:colcon.colcon_core.verb:Building package 'examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jasper/rtab_robocup/src/build/examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jasper/rtab_robocup/src/install/examples', 'merge_install': False, 'path': '/home/jasper/rtab_robocup/src/rtabmap_roboworks/examples', 'symlink_install': False, 'test_result_base': None}
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_args' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_cache' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_clean_first' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'cmake_force_configure' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'ament_cmake_args' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_cmake_args' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'pointcloud_to_laserscan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.975s] DEBUG:colcon.colcon_core.verb:Building package 'pointcloud_to_laserscan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan', 'merge_install': False, 'path': '/home/jasper/rtab_robocup/src/pointcloud_to_laserscan', 'symlink_install': False, 'test_result_base': None}
+[1.993s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_args' from command line to 'None'
+[1.993s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target' from command line to 'None'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_clean_first' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'cmake_force_configure' from command line to 'False'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'ament_cmake_args' from command line to 'None'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[1.994s] Level 5:colcon.colcon_core.verb:set package 'sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.994s] DEBUG:colcon.colcon_core.verb:Building package 'sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jasper/rtab_robocup/src/build/sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jasper/rtab_robocup/src/install/sensors', 'merge_install': False, 'path': '/home/jasper/rtab_robocup/src/sensors', 'symlink_install': False, 'test_result_base': None}
+[2.012s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.031s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.031s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jasper/rtab_robocup/src/rtabmap_roboworks/examples' with build type 'ament_cmake'
+[2.032s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jasper/rtab_robocup/src/rtabmap_roboworks/examples'
+[2.053s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.053s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.053s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.117s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jasper/rtab_robocup/src/pointcloud_to_laserscan' with build type 'ament_cmake'
+[2.118s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jasper/rtab_robocup/src/pointcloud_to_laserscan'
+[2.138s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.138s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.208s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jasper/rtab_robocup/src/sensors' with build type 'ament_cmake'
+[2.208s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jasper/rtab_robocup/src/sensors'
+[2.229s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.229s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.299s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/rtabmap_roboworks/examples -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/examples
+[2.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan
+[2.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/sensors -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/sensors
+[3.588s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/rtabmap_roboworks/examples -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/examples
+[3.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/examples -- -j8 -l8
+[3.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/examples -- -j8 -l8
+[3.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/examples
+[3.735s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples)
+[3.736s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/examples' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/examples
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples' for CMake module files
+[3.759s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples' for CMake config files
+[3.760s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples', 'cmake_prefix_path')
+[3.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.ps1'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.dsv'
+[3.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.sh'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/bin'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/lib/pkgconfig/examples.pc'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/lib/python3.10/site-packages'
+[3.783s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/bin'
+[3.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.ps1'
+[3.806s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.dsv'
+[3.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.sh'
+[3.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.bash'
+[3.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.zsh'
+[3.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/examples/share/colcon-core/packages/examples)
+[3.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(examples)
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples' for CMake module files
+[3.898s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples' for CMake config files
+[3.899s] Level 1:colcon.colcon_core.shell:create_environment_hook('examples', 'cmake_prefix_path')
+[3.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.ps1'
+[3.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.dsv'
+[3.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/examples/share/examples/hook/cmake_prefix_path.sh'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/bin'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/lib/pkgconfig/examples.pc'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/lib/python3.10/site-packages'
+[3.922s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/examples/bin'
+[3.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.ps1'
+[3.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.dsv'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.sh'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.bash'
+[3.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/examples/share/examples/package.zsh'
+[3.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/examples/share/colcon-core/packages/examples)
+[5.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/sensors -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/sensors
+[5.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/sensors -- -j8 -l8
+[5.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/rtab_robocup/src/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan
+[5.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan -- -j8 -l8
+[15.157s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/sensors -- -j8 -l8
+[15.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/sensors
+[15.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[15.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/sensors
+[15.257s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors' for CMake module files
+[15.257s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors' for CMake config files
+[15.258s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[15.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[15.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[15.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[15.291s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib'
+[15.291s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/bin'
+[15.291s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib/pkgconfig/sensors.pc'
+[15.291s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib/python3.10/site-packages'
+[15.291s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/bin'
+[15.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.ps1'
+[15.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.dsv'
+[15.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.sh'
+[15.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.bash'
+[15.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.zsh'
+[15.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/sensors/share/colcon-core/packages/sensors)
+[15.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensors)
+[15.417s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors' for CMake module files
+[15.417s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors' for CMake config files
+[15.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensors', 'cmake_prefix_path')
+[15.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.ps1'
+[15.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.dsv'
+[15.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/hook/cmake_prefix_path.sh'
+[15.439s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib'
+[15.439s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/bin'
+[15.439s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib/pkgconfig/sensors.pc'
+[15.439s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/lib/python3.10/site-packages'
+[15.439s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/sensors/bin'
+[15.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.ps1'
+[15.460s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.dsv'
+[15.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.sh'
+[15.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.bash'
+[15.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/sensors/share/sensors/package.zsh'
+[15.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/sensors/share/colcon-core/packages/sensors)
+[35.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan -- -j8 -l8
+[35.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan
+[35.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[35.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/rtab_robocup/src/build/pointcloud_to_laserscan
+[35.300s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan' for CMake module files
+[35.300s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan' for CMake config files
+[35.301s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[35.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[35.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[35.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[35.320s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib'
+[35.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[35.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[35.340s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[35.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[35.341s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/bin'
+[35.341s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[35.341s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[35.341s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/bin'
+[35.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[35.361s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[35.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[35.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[35.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[35.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[35.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pointcloud_to_laserscan)
+[35.493s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan' for CMake module files
+[35.493s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan' for CMake config files
+[35.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'cmake_prefix_path')
+[35.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.ps1'
+[35.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.dsv'
+[35.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/cmake_prefix_path.sh'
+[35.513s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib'
+[35.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('pointcloud_to_laserscan', 'ld_library_path_lib')
+[35.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.ps1'
+[35.532s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.dsv'
+[35.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/hook/ld_library_path_lib.sh'
+[35.533s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/bin'
+[35.533s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib/pkgconfig/pointcloud_to_laserscan.pc'
+[35.533s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/lib/python3.10/site-packages'
+[35.533s] Level 1:colcon.colcon_core.environment:checking '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/bin'
+[35.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.ps1'
+[35.553s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv'
+[35.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.sh'
+[35.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.bash'
+[35.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.zsh'
+[35.555s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jasper/rtab_robocup/src/install/pointcloud_to_laserscan/share/colcon-core/packages/pointcloud_to_laserscan)
+[35.555s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[35.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[35.556s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[35.557s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[35.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[35.583s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[35.583s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.595s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.616s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jasper/rtab_robocup/src/install/local_setup.ps1'
+[35.617s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jasper/rtab_robocup/src/install/_local_setup_util_ps1.py'
+[35.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jasper/rtab_robocup/src/install/setup.ps1'
+[35.641s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jasper/rtab_robocup/src/install/local_setup.sh'
+[35.641s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jasper/rtab_robocup/src/install/_local_setup_util_sh.py'
+[35.642s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jasper/rtab_robocup/src/install/setup.sh'
+[35.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jasper/rtab_robocup/src/install/local_setup.bash'
+[35.665s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jasper/rtab_robocup/src/install/setup.bash'
+[35.688s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jasper/rtab_robocup/src/install/local_setup.zsh'
+[35.689s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jasper/rtab_robocup/src/install/setup.zsh'
