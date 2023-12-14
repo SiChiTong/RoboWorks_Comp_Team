@@ -1,0 +1,16 @@
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/lib/roboworks_brain/brain_node
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/package_run_dependencies/roboworks_brain
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/parent_prefix_path/roboworks_brain
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.sh
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.dsv
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.sh
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.dsv
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.bash
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.sh
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.zsh
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.dsv
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.dsv
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/packages/roboworks_brain
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig.cmake
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig-version.cmake
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.xml

@@ -1,0 +1,11 @@
+[0.092s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain -- -j8 -l8
+[0.150s] [35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[0.168s] [ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[0.178s] [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.178s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.178s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.178s] compilation terminated.
+[0.179s] gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+[0.179s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+[0.180s] gmake: *** [Makefile:146: all] Error 2
+[0.182s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain -- -j8 -l8

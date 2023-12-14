@@ -1,0 +1,4 @@
+source;share/roboworks_brain/local_setup.bash
+source;share/roboworks_brain/local_setup.dsv
+source;share/roboworks_brain/local_setup.sh
+source;share/roboworks_brain/local_setup.zsh

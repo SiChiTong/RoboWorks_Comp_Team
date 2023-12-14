@@ -1,0 +1,8 @@
+source;share/roboworks_brain/hook/cmake_prefix_path.ps1
+source;share/roboworks_brain/hook/cmake_prefix_path.dsv
+source;share/roboworks_brain/hook/cmake_prefix_path.sh
+source;share/roboworks_brain/local_setup.bash
+source;share/roboworks_brain/local_setup.dsv
+source;share/roboworks_brain/local_setup.ps1
+source;share/roboworks_brain/local_setup.sh
+source;share/roboworks_brain/local_setup.zsh
