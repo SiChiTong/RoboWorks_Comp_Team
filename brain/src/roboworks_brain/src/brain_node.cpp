@@ -28,6 +28,7 @@ class brainNode : public rclcpp::Node
     }
 
   private:
+
     // Function to recieve an information (Task List, Game State) from atwork_commander
     void AT_callback(const std_msgs::msg::String & msg)
     {
@@ -40,6 +41,7 @@ class brainNode : public rclcpp::Node
       //taskOp_client->async_send_request(request, std::bind(&brainNode::controller, this, _1))
     }
 
+
     // MASTER FUNCTION, this takes in the optimized list and sends commands based on that list
     void controller(const std_msgs::msg::String & msg)
     {
@@ -47,10 +49,53 @@ class brainNode : public rclcpp::Node
       //masterList = msg;
 
       for (auto it = masterList.begin(); it != masterList.end(); ++it) {
-        // Read in task here
+        // Read in task here and process
+
+        /*
+          Bellow are the current possible instructions and their corresponding service call with callback fucntion
+          Instructions at the moment will consist of the following at the moment:
+            
+            Move to location:
+              List Instruction Example: "M W1" (Move workstation 1)
+              Code Breakdown:
+                1.  Get point to navigate to that corresponds to requested area
+                2. navTo_client->async_send_request(request, std::bind(&brainNode::moving, this, _1))
+
+            Pick up object:
+              List Instruction Example: "PU <Object ID>" (Pickup Object)
+              Code Breakdown:
+                1. armPickPlace_client->async_send_request(request, std::bind(&brainNode::pickPlace, this, _1))
+        
+        */
+        
+
       }
 
     }
+
+
+    // Callback function for navigation service response, will recieve a msg that has (sucess/fail, new instruction)
+    void moving(const std_msgs::msg::String & msg)
+    {
+      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      
+      // If message is success indicate that task is complete to the controller function
+
+      // If message is fail, read in new instruction (possibly do some processing), and then add it into the master instruction list to be excuted next
+      
+    }
+
+    // Callback function for arm_brain service response, will recieve a msg that has (sucess/fail, new instruction)
+    void pickPlace(const std_msgs::msg::String & msg)
+    {
+      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      
+      // If message is success indicate that task is complete to the controller function
+
+      // If message is fail, read in new instruction (possibly do some processing), and then add it into the master instruction list to be excuted next
+      
+    }
+
 
     /*
     MASTER INSTRUCTION LIST
@@ -59,6 +104,18 @@ class brainNode : public rclcpp::Node
       All other callbacks should only add or take away from this list to insert or remove instructions dynamically
     */
     std::list<std::string> masterList;
+
+    /* 
+      Master switch to indicate that the previous instruction is done with and the next instruction can be executed.
+      1 means that there is instruction that is currently being executed, 0 means that there is nothing being done.
+
+      Potentially in the future change this to an array to indicate if the arm or wheels are doing something individually, allowing
+      tasks to be executed simulatanously
+    */
+    int executing = 0;
+
+
+
 
 
     // Subscriber to atwork_commander

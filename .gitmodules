@@ -1,0 +1,3 @@
+[submodule "rtab_robocup/src/pointcloud_to_laserscan"]
+	path = rtab_robocup/src/pointcloud_to_laserscan
+	url = https://github.com/ros-perception/pointcloud_to_laserscan
