@@ -1,0 +1,4 @@
+source;share/roboworks_brain_interfaces/environment/ament_prefix_path.sh
+source;share/roboworks_brain_interfaces/environment/library_path.sh
+source;share/roboworks_brain_interfaces/environment/path.sh
+source;share/roboworks_brain_interfaces/environment/pythonpath.sh

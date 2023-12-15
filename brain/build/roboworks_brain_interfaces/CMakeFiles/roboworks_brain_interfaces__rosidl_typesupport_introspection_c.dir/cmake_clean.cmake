@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c.o"
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c.o.d"
+  "libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.pdb"
+  "libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

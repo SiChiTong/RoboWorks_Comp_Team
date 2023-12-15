@@ -1,6 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-#include "example_interfaces/srv/add_two_ints.hpp"
+#include "roboworks_brain_interfaces/srv/arm_brain.hpp"
 
 #include <chrono>
 #include <cstdlib>
@@ -18,8 +18,8 @@ class brainNode : public rclcpp::Node
     brainNode()
     : Node("brainNode")
     {
-      taskOp_client = this->create_client<example_interfaces::srv::AddTwoInts>("get_opt_list");
-      armPickPlace_client = this->create_client<example_interfaces::srv::AddTwoInts>("pick_place");
+      taskOp_client = this->create_client<roboworks_brain_interfaces::srv::AddTwoInts>("get_opt_list");
+      armPickPlace_client = this->create_client<roboworks_brain_interfaces::srv::ArmBrain>("pick_place");
       navTo_client = this->create_client<example_interfaces::srv::AddTwoInts>("go_to_position");
       
       // Sub to atwork
@@ -49,7 +49,10 @@ class brainNode : public rclcpp::Node
       //masterList = msg;
 
       for (auto it = masterList.begin(); it != masterList.end(); ++it) {
-        // Read in task here and process
+
+        // Read in task/instruction here and process
+
+        this->executing = 1; // Indicate that another instruction is being executed now
 
         /*
           Bellow are the current possible instructions and their corresponding service call with callback fucntion
@@ -69,6 +72,11 @@ class brainNode : public rclcpp::Node
         */
         
 
+        // Wait for instruction to finish
+        while (this->executing == 1) {
+           std::cout << "The previous instruction is still running!" << std::endl;
+        }
+
       }
 
     }
@@ -82,18 +90,29 @@ class brainNode : public rclcpp::Node
       // If message is success indicate that task is complete to the controller function
 
       // If message is fail, read in new instruction (possibly do some processing), and then add it into the master instruction list to be excuted next
+
+      this->executing = 0; // Let the controller move on to the next instruction in the master list
       
     }
 
     // Callback function for arm_brain service response, will recieve a msg that has (sucess/fail, new instruction)
-    void pickPlace(const std_msgs::msg::String & msg)
+    void pickPlace(rclcpp::Client<roboworks_brain_interfaces::srv::ArmBrain>::SharedFuture response)
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      auto result = response.get(); // Get service result
+      RCLCPP_INFO(this->get_logger(), "pickPlace  responed!");
       
-      // If message is success indicate that task is complete to the controller function
+      // If message is fail (success == 0), read in new instruction (possibly do some processing), and then add it into the master instruction list to be executed next
+      if (result->success == 0) {
+        RCLCPP_INFO(this->get_logger(), "pickPlace heard new task: '%s'", result->instruction);
+        
+        // Maybe process the new instruction here if needed
 
-      // If message is fail, read in new instruction (possibly do some processing), and then add it into the master instruction list to be excuted next
-      
+        this->masterList.push_front(result->instruction); // Add new instruction to start of master list to be executed next
+      }
+
+      // If message is success just indicate that task is complete to the controller function
+      this->executing = 0; // Let the controller move on to the next instruction in the master list
+
     }
 
 
@@ -130,7 +149,7 @@ class brainNode : public rclcpp::Node
     // Client node to get the arm to collect or place an item
     // Request: {Item ID, Operation(Collect/Place)}
     // Response: Success/Fail
-    rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr armPickPlace_client;
+    rclcpp::Client<roboworks_brain_interfaces::srv::ArmBrain>::SharedPtr armPickPlace_client;
 
     // Client node to get robot to travel to a particular location
     // Request: New Robot Position
@@ -147,7 +166,7 @@ int main(int argc, char ** argv)
   (void) argv;
   rclcpp::init(argc, argv);
   
-  rclcpp::spin(brainNode);
+  rclcpp::spin(std::make_shared<brainNode>());
   rclcpp::shutdown();
 
 

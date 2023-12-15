@@ -1,0 +1,6 @@
+{
+  "package_name": "roboworks_brain_interfaces",
+  "non_idl_tuples": [
+    "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces:srv/ArmBrain.srv"
+  ]
+}

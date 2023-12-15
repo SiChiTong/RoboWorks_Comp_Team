@@ -1,0 +1,218 @@
+[0.111s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces -DCMAKE_INSTALL_PREFIX=/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces
+[0.130s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.280s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.290s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.293s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.618s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.840s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.127s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.160s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.160s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.160s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.160s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.182s] -- Found PythonExtra: .so  
+[1.253s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.321s] -- Added test 'lint_cmake' to check CMake code style
+[1.324s] -- Added test 'xmllint' to check XML markup files
+[1.329s] -- Configuring done
+[1.357s] -- Generating done
+[1.359s] -- Build files have been written to: /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces
+[1.365s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces -DCMAKE_INSTALL_PREFIX=/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces
+[1.367s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
+[1.427s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.446s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.458s] [  6%] Built target ament_cmake_python_copy_roboworks_brain_interfaces
+[1.774s] running egg_info
+[1.774s] creating roboworks_brain_interfaces.egg-info
+[1.775s] writing roboworks_brain_interfaces.egg-info/PKG-INFO
+[1.775s] writing dependency_links to roboworks_brain_interfaces.egg-info/dependency_links.txt
+[1.776s] writing top-level names to roboworks_brain_interfaces.egg-info/top_level.txt
+[1.776s] writing manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[1.781s] reading manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[1.782s] writing manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[1.795s] [  6%] Built target roboworks_brain_interfaces__cpp
+[1.799s] [  9%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o[0m
+[1.814s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.818s] [ 12%] Built target ament_cmake_python_build_roboworks_brain_interfaces_egg
+[1.819s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.819s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.878s] [ 22%] [32m[1mLinking C shared library libroboworks_brain_interfaces__rosidl_generator_c.so[0m
+[1.932s] [ 22%] Built target roboworks_brain_interfaces__rosidl_generator_c
+[1.952s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.956s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.956s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.188s] [ 35%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/arm_brain__type_support.cpp.o[0m
+[2.287s] [ 38%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/roboworks_brain_interfaces/srv/arm_brain__type_support.cpp.o[0m
+[2.288s] [ 41%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboworks_brain_interfaces/srv/arm_brain__type_support.cpp.o[0m
+[2.349s] [ 45%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.cpp.o[0m
+[2.352s] [ 48%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_c.so[0m
+[2.443s] [ 48%] Built target roboworks_brain_interfaces__rosidl_typesupport_c
+[2.481s] [ 51%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c.o[0m
+[2.516s] [ 54%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support_c.cpp.o[0m
+[2.555s] [ 58%] [32m[1mLinking C shared library libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.624s] [ 58%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c
+[2.652s] [ 61%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_cpp.so[0m
+[2.714s] [ 61%] Built target roboworks_brain_interfaces__rosidl_typesupport_cpp
+[2.726s] [ 64%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.798s] [ 67%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.829s] [ 67%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.882s] [ 67%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp
+[2.909s] [ 70%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.998s] [ 70%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c
+[3.030s] [ 70%] Built target roboworks_brain_interfaces
+[3.063s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.510s] [ 74%] Built target roboworks_brain_interfaces__py
+[3.545s] [ 77%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_py.dir/rosidl_generator_py/roboworks_brain_interfaces/srv/_arm_brain_s.c.o[0m
+[3.673s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/libroboworks_brain_interfaces__rosidl_generator_py.so[0m
+[3.725s] [ 80%] Built target roboworks_brain_interfaces__rosidl_generator_py
+[3.761s] [ 90%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.761s] [ 90%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.761s] [ 90%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.870s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.872s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.877s] [100%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.922s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_c__pyext
+[3.923s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.929s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.946s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
+[4.100s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces
+[4.112s] -- Install configuration: ""
+[4.112s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/ament_index/resource_index/rosidl_interfaces/roboworks_brain_interfaces
+[4.112s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__functions.h
+[4.113s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__struct.h
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.h
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/arm_brain.h
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/library_path.sh
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/library_path.dsv
+[4.114s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_c.so
+[4.115s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_c.so" to ""
+[4.115s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.115s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg
+[4.115s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.115s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.115s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.115s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_fastrtps_c.h
+[4.116s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.116s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.116s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.116s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg
+[4.116s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.116s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.116s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.117s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c
+[4.117s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_introspection_c.h
+[4.117s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so
+[4.117s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.117s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so
+[4.117s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so" to ""
+[4.117s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.118s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.118s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.118s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__struct.hpp
+[4.118s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__builder.hpp
+[4.118s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__traits.hpp
+[4.118s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/arm_brain.hpp
+[4.118s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.119s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg
+[4.119s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.119s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.119s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.119s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/dds_fastrtps
+[4.119s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_fastrtps_cpp.hpp
+[4.119s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.119s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.120s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces
+[4.120s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv
+[4.120s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail
+[4.120s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.cpp
+[4.120s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_introspection_cpp.hpp
+[4.120s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.120s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so
+[4.121s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/pythonpath.sh
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/pythonpath.dsv
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces-0.0.0-py3.10.egg-info
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.121s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.122s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/__init__.py
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/libroboworks_brain_interfaces__rosidl_generator_py.so
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv/__init__.py
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv/_arm_brain.py
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv/_arm_brain_s.c
+[4.123s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_c.c
+[4.161s] Listing '/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces'...
+[4.161s] Compiling '/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/__init__.py'...
+[4.161s] Listing '/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv'...
+[4.161s] Compiling '/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv/__init__.py'...
+[4.161s] Compiling '/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/srv/_arm_brain.py'...
+[4.165s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.166s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.166s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.166s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.167s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.167s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.167s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_py.so
+[4.168s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_py.so" to ""
+[4.168s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/srv/ArmBrain.idl
+[4.168s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/srv/ArmBrain.srv
+[4.168s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/srv/ArmBrain_Request.msg
+[4.168s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/srv/ArmBrain_Response.msg
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/ament_index/resource_index/package_run_dependencies/roboworks_brain_interfaces
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/ament_index/resource_index/parent_prefix_path/roboworks_brain_interfaces
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/ament_prefix_path.sh
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/ament_prefix_path.dsv
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/path.sh
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/environment/path.dsv
+[4.169s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/local_setup.bash
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/local_setup.sh
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/local_setup.zsh
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/local_setup.dsv
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/package.dsv
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/ament_index/resource_index/packages/roboworks_brain_interfaces
+[4.170s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_generator_cExport.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_cExport.cmake
+[4.171s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_generator_cppExport.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_cppExport.cmake
+[4.172s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_generator_pyExport.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/export_roboworks_brain_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.173s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfacesConfig.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/cmake/roboworks_brain_interfacesConfig-version.cmake
+[4.174s] -- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/share/roboworks_brain_interfaces/package.xml
+[4.176s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces

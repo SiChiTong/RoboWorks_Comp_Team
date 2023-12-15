@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roboworks_brain_interfaces/srv/ArmBrain.srv
+// generated code does not contain a copyright notice
+
+
+module roboworks_brain_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "service format between arm_brain and brain nodes")
+    struct ArmBrain_Request {
+      @verbatim (language="comment", text=
+        "0 is pick up, 1 is place")
+      uint32 operation_type;
+
+      @verbatim (language="comment", text=
+        "int to indicate which object to perform operation")
+      uint32 object_id;
+    };
+    struct ArmBrain_Response {
+      @verbatim (language="comment", text=
+        "1 indicates task is complete, 0 means task failed")
+      uint32 success;
+
+      @verbatim (language="comment", text=
+        "a requested instruction to be done before the next task in the master task list (e.g. to move left/right a little bit)")
+      string instruction;
+    };
+  };
+};
