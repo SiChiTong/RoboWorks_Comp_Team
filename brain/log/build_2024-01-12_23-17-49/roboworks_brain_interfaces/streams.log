@@ -1,0 +1,34 @@
+[0.113s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_generator_c[0m
+[0.195s] [  2%] Built target roboworks_brain_interfaces__cpp
+[0.201s] [ 12%] Built target roboworks_brain_interfaces__rosidl_generator_c
+[0.215s] [ 12%] Built target ament_cmake_python_copy_roboworks_brain_interfaces
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_cpp[0m
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_c[0m
+[0.228s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.231s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_introspection_c[0m
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.260s] [ 23%] Built target roboworks_brain_interfaces__rosidl_typesupport_c
+[0.261s] [ 34%] Built target roboworks_brain_interfaces__rosidl_typesupport_cpp
+[0.263s] [ 46%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.264s] [ 55%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c
+[0.265s] [ 65%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp
+[0.269s] [ 76%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c
+[0.305s] [ 76%] Built target roboworks_brain_interfaces
+[0.341s] [ 78%] Built target roboworks_brain_interfaces__py
+[0.361s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_generator_py[0m
+[0.384s] [ 87%] Built target roboworks_brain_interfaces__rosidl_generator_py
+[0.404s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.411s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_c__pyext[0m
+[0.412s] [35m[1mConsolidate compiler generated dependencies of target roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.428s] [ 91%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.441s] [ 95%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.443s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_c__pyext
+[0.548s] running egg_info
+[0.549s] writing roboworks_brain_interfaces.egg-info/PKG-INFO
+[0.549s] writing dependency_links to roboworks_brain_interfaces.egg-info/dependency_links.txt
+[0.549s] writing top-level names to roboworks_brain_interfaces.egg-info/top_level.txt
+[0.552s] reading manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[0.553s] writing manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[0.587s] [100%] Built target ament_cmake_python_build_roboworks_brain_interfaces_egg

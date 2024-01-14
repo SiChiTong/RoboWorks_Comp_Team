@@ -206,4 +206,16 @@ CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_ge
  /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.h
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__type_support.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.h \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__type_support.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__struct.h \
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.h

@@ -669,17 +669,57 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp \
-  /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp \
-  /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp \
-  /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/arm_brain.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__struct.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__builder.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__traits.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/navigation.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__builder.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/task_opt.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp \
+  /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp
 
 
-/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp:
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp:
 
-/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp:
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp:
 
-/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__builder.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/navigation.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__traits.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__struct.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/arm_brain.hpp:
 
 /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
 
@@ -757,6 +797,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp:
 
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp:
@@ -794,6 +836,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
@@ -916,6 +960,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 /usr/include/c++/11/pstl/glue_algorithm_defs.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -1211,6 +1257,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__builder.hpp:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
 /usr/include/c++/11/bits/ios_base.h:
@@ -1310,6 +1358,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
+
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp:
 
 /usr/include/c++/11/bits/stl_pair.h:
 
@@ -1481,7 +1531,7 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 
 /usr/include/c++/11/bits/std_mutex.h:
 
-/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:
+/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/task_opt.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
 
@@ -1540,6 +1590,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/istream:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
 /usr/include/c++/11/bits/istream.tcc:
 
@@ -1644,6 +1696,8 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o: /home/jasper/RoboWorks_Comp_Team
 /usr/include/c++/11/bits/ostream.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
 

@@ -1,10 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/arm_brain__type_support.cpp.o"
   "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/arm_brain__type_support.cpp.o.d"
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/navigation__type_support.cpp.o"
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/navigation__type_support.cpp.o.d"
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/task_opt__type_support.cpp.o"
+  "CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/task_opt__type_support.cpp.o.d"
   "libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.pdb"
   "libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/arm_brain__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/arm_brain__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/navigation__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/task_opt__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/task_opt__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

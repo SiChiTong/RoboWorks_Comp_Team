@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so")
@@ -360,6 +360,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/Navigation.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/TaskOpt.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces/srv/ArmBrain.srv")
 endif()
 
@@ -369,6 +377,30 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/ArmBrain_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces/srv/Navigation.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/Navigation_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/Navigation_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces/srv/TaskOpt.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/TaskOpt_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/TaskOpt_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -592,6 +624,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/cmake" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/cmake" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
@@ -605,10 +641,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/cmake" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/cmake" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

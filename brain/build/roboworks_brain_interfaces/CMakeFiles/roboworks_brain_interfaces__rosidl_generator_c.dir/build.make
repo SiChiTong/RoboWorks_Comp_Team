@@ -83,6 +83,73 @@ rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/s
 rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: rosidl_adapter/roboworks_brain_interfaces/srv/ArmBrain.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: rosidl_adapter/roboworks_brain_interfaces/srv/Navigation.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: rosidl_adapter/roboworks_brain_interfaces/srv/TaskOpt.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovarianceStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Inertia.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/InertiaStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Point.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Point32.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PointStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Polygon.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PolygonStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Pose.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Pose2D.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PoseArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PoseStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovariance.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/PoseWithCovarianceStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Quaternion.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/QuaternionStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Transform.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/TransformStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Twist.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/TwistStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovariance.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/TwistWithCovarianceStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Byte.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Char.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/ColorRGBA.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Empty.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Float32.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Float32MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Float64.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Float64MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Header.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int16.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int16MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int32.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int32MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int64.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int64MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int8.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/Int8MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayDimension.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/MultiArrayLayout.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/String.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt16.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt16MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt32.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt32MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt64.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt64MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt8.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/std_msgs/msg/UInt8MultiArray.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/rosgraph_msgs/msg/Clock.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/statistics_msgs/msg/MetricsMessage.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/statistics_msgs/msg/StatisticDataPoint.idl
+rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h: /opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c__arguments.json
 
@@ -95,8 +162,38 @@ rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__struct.h: ro
 rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.h
 
+rosidl_generator_c/roboworks_brain_interfaces/srv/navigation.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/navigation.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__struct.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__struct.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__type_support.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__type_support.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/task_opt.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/task_opt.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__struct.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__struct.h
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__type_support.h: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__type_support.h
+
 rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c
+
+rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c: rosidl_generator_c/roboworks_brain_interfaces/srv/arm_brain.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c
 
 CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/flags.make
 CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c
@@ -112,19 +209,56 @@ CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c -o CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.s
 
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o -MF CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o.d -o CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o -c /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c
+
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c > CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.i
+
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c -o CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.s
+
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/flags.make
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o -MF CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o.d -o CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o -c /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c
+
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c > CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.i
+
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c -o CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.s
+
 # Object files for target roboworks_brain_interfaces__rosidl_generator_c
 roboworks_brain_interfaces__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o"
+"CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o" \
+"CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o" \
+"CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o"
 
 # External object files for target roboworks_brain_interfaces__rosidl_generator_c
 roboworks_brain_interfaces__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libroboworks_brain_interfaces__rosidl_generator_c.so: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o
+libroboworks_brain_interfaces__rosidl_generator_c.so: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o
+libroboworks_brain_interfaces__rosidl_generator_c.so: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c.o
 libroboworks_brain_interfaces__rosidl_generator_c.so: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/build.make
+libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libroboworks_brain_interfaces__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libroboworks_brain_interfaces__rosidl_generator_c.so: CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libroboworks_brain_interfaces__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libroboworks_brain_interfaces__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -140,6 +274,16 @@ CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_gen
 CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.h
 CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__struct.h
 CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__struct.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__type_support.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.c
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__struct.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__type_support.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/navigation.h
+CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend: rosidl_generator_c/roboworks_brain_interfaces/srv/task_opt.h
 	cd /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/depend
 

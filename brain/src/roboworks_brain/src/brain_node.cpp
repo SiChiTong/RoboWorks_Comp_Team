@@ -1,12 +1,16 @@
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "roboworks_brain_interfaces/srv/arm_brain.hpp"
+#include "roboworks_brain_interfaces/srv/navigation.hpp"
+#include "roboworks_brain_interfaces/srv/task_opt.hpp"
 
 #include <chrono>
 #include <cstdlib>
 #include <memory>
 #include <iterator>
 #include <list>
+#include <string>
+#include <iostream>
 
 
 using std::placeholders::_1;
@@ -18,13 +22,12 @@ class brainNode : public rclcpp::Node
     brainNode()
     : Node("brainNode")
     {
-      taskOp_client = this->create_client<roboworks_brain_interfaces::srv::AddTwoInts>("get_opt_list");
+      taskOp_client = this->create_client<roboworks_brain_interfaces::srv::TaskOpt>("get_opt_list");
       armPickPlace_client = this->create_client<roboworks_brain_interfaces::srv::ArmBrain>("pick_place");
-      navTo_client = this->create_client<example_interfaces::srv::AddTwoInts>("go_to_position");
+      navTo_client = this->create_client<roboworks_brain_interfaces::srv::Navigation>("go_to_position");
       
       // Sub to atwork
-      AT_sub = this->create_subscription<std_msgs::msg::String>("topic", 10, std::bind(&brainNode::AT_callback, this, _1));
-
+      AT_sub = this->create_subscription<std_msgs::msg::String>("/atworkCommander", 10, std::bind(&brainNode::AT_callback, this, _1));
     }
 
   private:
@@ -35,20 +38,28 @@ class brainNode : public rclcpp::Node
       RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
 
       // Take list from AT_Commander and give it 
-      //auto request = std::make_shared<example_interfaces::srv::AddTwoInts::Request>();
+      auto requestTaskOpt = std::make_shared<roboworks_brain_interfaces::srv::TaskOpt::Request>();
+
       //Populate request here and send bellow
+      requestTaskOpt->task_list = "Task list goes here";
+      requestTaskOpt->game_state = "Game state goes here";
+
       // Bind request reciveing to master function
-      //taskOp_client->async_send_request(request, std::bind(&brainNode::controller, this, _1))
+      taskOp_client->async_send_request(requestTaskOpt, std::bind(&brainNode::controller, this, _1));
     }
 
 
     // MASTER FUNCTION, this takes in the optimized list and sends commands based on that list
-    void controller(const std_msgs::msg::String & msg)
+    using ServiceResponseFuture = rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt>::SharedFuture;
+    void controller(ServiceResponseFuture future)
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      auto result = future.get();
+      auto masterList = result->masterlist;
+
+      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", result->masterlist);
       //masterList = msg;
 
-      for (auto it = masterList.begin(); it != masterList.end(); ++it) {
+      for (const auto& instruct : masterList) {
 
         // Read in task/instruction here and process
 
@@ -71,6 +82,9 @@ class brainNode : public rclcpp::Node
         
         */
         
+        // Get instructrion type substring
+        std::string instrucType = instruct.substr(0,2);
+        
 
         // Wait for instruction to finish
         while (this->executing == 1) {
@@ -83,14 +97,21 @@ class brainNode : public rclcpp::Node
 
 
     // Callback function for navigation service response, will recieve a msg that has (sucess/fail, new instruction)
-    void moving(const std_msgs::msg::String & msg)
+    void moving(rclcpp::Client<roboworks_brain_interfaces::srv::Navigation>::SharedFuture response)
     {
-      RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
+      auto result = response.get(); // Get service result
+      RCLCPP_INFO(this->get_logger(), "moving responed!");
       
-      // If message is success indicate that task is complete to the controller function
+      // If message is fail (success == 0), read in new instruction (possibly do some processing), and then add it into the master instruction list to be executed next
+      if (result->success == 0) {
+        RCLCPP_INFO(this->get_logger(), "moving heard new task: '%s'", result->instruction);
+        
+        // Maybe process the new instruction here if needed
 
-      // If message is fail, read in new instruction (possibly do some processing), and then add it into the master instruction list to be excuted next
+        this->masterList.push_front(result->instruction); // Add new instruction to start of master list to be executed next
+      }
 
+      // If message is success just indicate that task is complete to the controller function
       this->executing = 0; // Let the controller move on to the next instruction in the master list
       
     }
@@ -144,7 +165,7 @@ class brainNode : public rclcpp::Node
     // Client node to get optimized task list from the task_optimiser
     // Request: {Task List, Robot Position} 
     // Response: Optimised Command List
-    rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr taskOp_client;
+    rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt>::SharedPtr taskOp_client;
 
     // Client node to get the arm to collect or place an item
     // Request: {Item ID, Operation(Collect/Place)}
@@ -154,7 +175,7 @@ class brainNode : public rclcpp::Node
     // Client node to get robot to travel to a particular location
     // Request: New Robot Position
     // Response: Arrived/Failed
-    rclcpp::Client<example_interfaces::srv::AddTwoInts>::SharedPtr navTo_client;
+    rclcpp::Client<roboworks_brain_interfaces::srv::Navigation>::SharedPtr navTo_client;
 
 };
 
@@ -173,9 +194,7 @@ int main(int argc, char ** argv)
   /*
     NOT EL PLAN (THIS IS NOW BACK UP)
     Create individual nodes for each client and subscriber
-    Use an excutor (See https://docs.ros.org/en/foxy/Tutorials/Demos/Intra-Process-Communication.html) to run them all at the same time.
-
-  
+    Use an excutor (See https://docs.ros.org/en/foxy/Tutorials/Demos/Intra-Process-Communication.html) to run them all at the same time.  
   */
 
   

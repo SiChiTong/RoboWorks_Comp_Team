@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from roboworks_brain_interfaces/srv/Navigation.srv
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module roboworks_brain_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "service format between navigation and brain nodes")
+    struct Navigation_Request {
+      @verbatim (language="comment", text=
+        "goal point to move to")
+      geometry_msgs::msg::PoseStamped goal_point;
+    };
+    struct Navigation_Response {
+      @verbatim (language="comment", text=
+        "1 indicates task is complete, 0 means task failed")
+      uint32 success;
+
+      @verbatim (language="comment", text=
+        "a requested instruction to be done before the next task in the master task list (e.g. to move left/right a little bit)")
+      string instruction;
+    };
+  };
+};

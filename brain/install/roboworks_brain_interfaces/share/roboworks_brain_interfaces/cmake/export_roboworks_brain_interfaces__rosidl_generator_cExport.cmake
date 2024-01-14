@@ -55,7 +55,7 @@ add_library(roboworks_brain_interfaces::roboworks_brain_interfaces__rosidl_gener
 
 set_target_properties(roboworks_brain_interfaces::roboworks_brain_interfaces__rosidl_generator_c PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include/roboworks_brain_interfaces"
-  INTERFACE_LINK_LIBRARIES "rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
+  INTERFACE_LINK_LIBRARIES "geometry_msgs::geometry_msgs__rosidl_generator_c;std_msgs::std_msgs__rosidl_generator_c;builtin_interfaces::builtin_interfaces__rosidl_generator_c;rosgraph_msgs::rosgraph_msgs__rosidl_generator_c;statistics_msgs::statistics_msgs__rosidl_generator_c;rosidl_runtime_c::rosidl_runtime_c;rosidl_typesupport_interface::rosidl_typesupport_interface;rcutils::rcutils"
 )
 
 if(CMAKE_VERSION VERSION_LESS 2.8.12)

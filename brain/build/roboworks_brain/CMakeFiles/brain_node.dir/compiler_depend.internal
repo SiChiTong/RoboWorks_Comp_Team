@@ -670,8 +670,26 @@ CMakeFiles/brain_node.dir/src/brain_node.cpp.o
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp
- /opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp
- /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp
- /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__builder.hpp
- /opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__traits.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/arm_brain.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__struct.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__builder.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/arm_brain__traits.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/navigation.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__builder.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp
+ /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/task_opt.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp
+ /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/roboworks_brain_interfaces/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp
 

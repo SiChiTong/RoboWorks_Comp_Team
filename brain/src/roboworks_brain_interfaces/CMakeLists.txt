@@ -8,10 +8,14 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(rclcpp REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ArmBrain.srv"
-  DEPENDENCIES
+  "srv/Navigation.srv"
+  "srv/TaskOpt.srv"
+  DEPENDENCIES geometry_msgs rclcpp
 )
 
 if(BUILD_TESTING)

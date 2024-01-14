@@ -1,0 +1,59 @@
+[0.118s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
+[0.154s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.325s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.527s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.580s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.584s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.760s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.106s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[1.106s]   execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+[1.106s]   roboworks_brain_interfaces --arguments-file
+[1.106s]   /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter__arguments__roboworks_brain_interfaces.json
+[1.107s]   --output-dir
+[1.107s]   /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces
+[1.107s]   --output-file
+[1.107s]   /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces.idls)
+[1.107s]   returned error code 1:
+[1.107s] 
+[1.107s]   Error processing 'string[] masterList' of
+[1.107s]   'roboworks_brain_interfaces/TaskOpt_Response': ''masterList' is an invalid
+[1.108s]   field name.  It should have the pattern
+[1.108s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[1.108s] 
+[1.108s]   Traceback (most recent call last):
+[1.108s] 
+[1.108s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[1.108s]       return _run_code(code, main_globals, None,
+[1.108s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[1.108s]       exec(code, run_globals)
+[1.108s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.109s]       sys.exit(main())
+[1.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[1.109s]       abs_idl_file = convert_to_idl(
+[1.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 24, in convert_to_idl
+[1.109s]       return convert_srv_to_idl(
+[1.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/srv/__init__.py", line 28, in convert_srv_to_idl
+[1.109s]       srv = parse_service_string(package_name, input_file.stem, content)
+[1.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 863, in parse_service_string
+[1.109s]       response_message = parse_message_string(
+[1.109s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 519, in parse_message_string
+[1.110s]       fields.append(Field(
+[1.110s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 354, in __init__
+[1.110s]       raise NameError(
+[1.110s] 
+[1.110s]   NameError: 'masterList' is an invalid field name.  It should have the
+[1.110s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[1.110s] 
+[1.110s] Call Stack (most recent call first):
+[1.110s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.110s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[1.110s] 
+[1.111s] [0m
+[1.111s] -- Configuring incomplete, errors occurred!
+[1.111s] See also "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles/CMakeOutput.log".
+[1.115s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[1.117s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
