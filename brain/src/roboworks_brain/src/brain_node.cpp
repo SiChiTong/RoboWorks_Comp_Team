@@ -81,9 +81,36 @@ class brainNode : public rclcpp::Node
                 1. armPickPlace_client->async_send_request(request, std::bind(&brainNode::pickPlace, this, _1))
         
         */
+
+        // Split instruction string into instruction and specific command
+        std::string s;
+        std::stringstream ss(instruct);
+        // declaring vector to store the string after split
+        std::vector<std::string> currentInstruct;
+        while (getline(ss, s, ' ')) {    
+            // store token string in the vector
+            currentInstruct.push_back(s);
+        }
         
         // Get instructrion type substring
-        std::string instrucType = instruct.substr(0,2);
+        std::string instrucType = currentInstruct[0];
+        std::string instructCommand = currentInstruct[1];
+
+        // Check if Move instruction 
+        if (instrucType.find("M") != std::string::npos) {
+          // Create moving request 
+          auto requestMove = std::make_shared<roboworks_brain_interfaces::srv::Navigation::Request>();
+          //requestMove->goal_point = instructCommand; // This needs to be changed to posestamp for real thing
+
+          navTo_client->async_send_request(requestMove, std::bind(&brainNode::moving, this, _1));
+        } 
+
+        if (instrucType.find("PU") != std::string::npos) {
+          auto requestPickPlace = std::make_shared<roboworks_brain_interfaces::srv::ArmBrain::Request>();
+          // Populate request here
+
+          armPickPlace_client->async_send_request(requestPickPlace, std::bind(&brainNode::pickPlace, this, _1));
+        }
         
 
         // Wait for instruction to finish
@@ -97,7 +124,8 @@ class brainNode : public rclcpp::Node
 
 
     // Callback function for navigation service response, will recieve a msg that has (sucess/fail, new instruction)
-    void moving(rclcpp::Client<roboworks_brain_interfaces::srv::Navigation>::SharedFuture response)
+    using ServiceResponseMoving = rclcpp::Client<roboworks_brain_interfaces::srv::Navigation>::SharedFuture;
+    void moving(ServiceResponseMoving response)
     {
       auto result = response.get(); // Get service result
       RCLCPP_INFO(this->get_logger(), "moving responed!");
@@ -117,7 +145,8 @@ class brainNode : public rclcpp::Node
     }
 
     // Callback function for arm_brain service response, will recieve a msg that has (sucess/fail, new instruction)
-    void pickPlace(rclcpp::Client<roboworks_brain_interfaces::srv::ArmBrain>::SharedFuture response)
+    using ServiceResponsePickPlace = rclcpp::Client<roboworks_brain_interfaces::srv::ArmBrain>::SharedFuture;
+    void pickPlace(ServiceResponsePickPlace response)
     {
       auto result = response.get(); // Get service result
       RCLCPP_INFO(this->get_logger(), "pickPlace  responed!");
