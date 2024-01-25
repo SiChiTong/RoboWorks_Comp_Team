@@ -99,6 +99,12 @@ brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_inter
 brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so
 brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so
 brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_py.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_c.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_cpp.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_c.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_cpp.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_cpp.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_py.so
 brain_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 brain_node: /opt/ros/humble/lib/librcl.so
 brain_node: /opt/ros/humble/lib/librmw_implementation.so
@@ -150,6 +156,8 @@ brain_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 brain_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
 brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so
 brain_node: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/lib/libroboworks_brain_interfaces__rosidl_generator_c.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_c.so
+brain_node: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_c.so
 brain_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 brain_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 brain_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so

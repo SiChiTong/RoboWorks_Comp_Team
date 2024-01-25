@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from atwork_interfaces/msg/Object.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module atwork_interfaces {
+  module msg {
+    module Object_Constants {
+      const uint16 EMPTY = 0;
+      @verbatim (language="comment", text=
+        "atwork")
+      const uint16 ATWORK_START = 11;
+      const uint16 F20_20_B = 11;
+      const uint16 F20_20_G = 12;
+      const uint16 S40_40_B = 13;
+      const uint16 S40_40_G = 14;
+      const uint16 M20_100 = 15;
+      const uint16 M20 = 16;
+      const uint16 M30 = 17;
+      const uint16 R20 = 18;
+      const uint16 ATWORK_END = 18;
+      @verbatim (language="comment", text=
+        "advanced")
+      const uint16 ADVANCED_START = 20;
+      const uint16 AXIS2 = 20;
+      const uint16 BEARING2 = 21;
+      const uint16 HOUSING = 22;
+      const uint16 MOTOR2 = 23;
+      const uint16 SPACER = 24;
+      const uint16 SCREWDRIVER = 25;
+      const uint16 WRENCH = 26;
+      const uint16 DRILL = 27;
+      const uint16 ALLENKEY = 28;
+      const uint16 ADVANCED_END = 28;
+      @verbatim (language="comment", text=
+        "rockin")
+      const uint16 ROCKIN_START = 30;
+      const uint16 BEARING_BOX = 31;
+      const uint16 BEARING = 32;
+      const uint16 AXIS = 33;
+      const uint16 DISTANCE_TUBE = 34;
+      const uint16 MOTOR = 35;
+      const uint16 ROCKIN_END = 35;
+      @verbatim (language="comment", text=
+        "container")
+      const uint16 CONTAINER_START = 40;
+      const uint16 CONTAINER_RED = 40;
+      const uint16 CONTAINER_BLUE = 41;
+      const uint16 CONTAINER_END = 41;
+      @verbatim (language="comment", text=
+        "cavity")
+      const uint16 CAVITY_START = 50;
+      const uint16 F20_20_H = 50;
+      const uint16 F20_20_V = 51;
+      const uint16 F20_20_F = 52;
+      const uint16 S40_40_H = 53;
+      const uint16 S40_40_V = 54;
+      const uint16 S40_40_F = 55;
+      const uint16 M20_H = 56;
+      const uint16 M20_V = 57;
+      const uint16 M20_F = 58;
+      const uint16 M20_100_H = 59;
+      const uint16 M20_100_V = 60;
+      const uint16 M20_100_F = 61;
+      const uint16 M30_H = 62;
+      const uint16 M30_V = 63;
+      const uint16 M30_F = 64;
+      const uint16 R20_H = 65;
+      const uint16 R20_V = 66;
+      const uint16 R20_F = 67;
+      const uint16 CAVITY_END = 67;
+    };
+    @verbatim (language="comment", text=
+      "Object.msg")
+    struct Object {
+      uint16 object;
+
+      uint16 target;
+
+      boolean decoy;
+
+      geometry_msgs::msg::PoseStamped pose;
+    };
+  };
+};

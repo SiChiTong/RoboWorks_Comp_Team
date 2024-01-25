@@ -7,8 +7,6 @@ file(REMOVE_RECURSE
   "../rosidl_generator_py/roboworks_brain_interfaces/srv/_arm_brain_s.c"
   "../rosidl_generator_py/roboworks_brain_interfaces/srv/_navigation.py"
   "../rosidl_generator_py/roboworks_brain_interfaces/srv/_navigation_s.c"
-  "../rosidl_generator_py/roboworks_brain_interfaces/srv/_task_opt.py"
-  "../rosidl_generator_py/roboworks_brain_interfaces/srv/_task_opt_s.c"
   "CMakeFiles/roboworks_brain_interfaces__py"
 )
 

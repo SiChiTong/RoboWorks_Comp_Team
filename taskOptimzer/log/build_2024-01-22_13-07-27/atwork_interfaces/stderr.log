@@ -1,0 +1,17 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name
+  atwork_interfaces --arguments-file
+  /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_adapter__arguments__atwork_interfaces.json
+  --output-dir
+  /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_adapter/atwork_interfaces
+  --output-file
+  /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_adapter/atwork_interfaces.idls)
+  returned error code 1:
+
+  KeyError processing template 'struct.idl.em': 'time'
+
+Call Stack (most recent call first):
+  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+  CMakeLists.txt:17 (rosidl_generate_interfaces)
+
+[0m

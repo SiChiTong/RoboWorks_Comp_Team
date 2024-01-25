@@ -1,0 +1,62 @@
+[0.150s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces -- -j8 -l8
+[0.223s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.256s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.259s] [  5%] Built target ament_cmake_python_copy_roboworks_brain_interfaces
+[0.790s] running egg_info
+[0.791s] writing roboworks_brain_interfaces.egg-info/PKG-INFO
+[0.791s] writing dependency_links to roboworks_brain_interfaces.egg-info/dependency_links.txt
+[0.792s] writing top-level names to roboworks_brain_interfaces.egg-info/top_level.txt
+[0.795s] reading manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[0.797s] writing manifest file 'roboworks_brain_interfaces.egg-info/SOURCES.txt'
+[0.846s] [  5%] Built target ament_cmake_python_build_roboworks_brain_interfaces_egg
+[0.863s] [  5%] Built target roboworks_brain_interfaces__cpp
+[0.889s] [  7%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.892s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.894s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.071s] [ 15%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/arm_brain__functions.c.o[0m
+[1.078s] [ 17%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_c.dir/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.c.o[0m
+[1.208s] [ 20%] [32m[1mLinking C shared library libroboworks_brain_interfaces__rosidl_generator_c.so[0m
+[1.295s] [ 20%] Built target roboworks_brain_interfaces__rosidl_generator_c
+[1.325s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.326s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.326s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.585s] [ 30%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboworks_brain_interfaces/srv/navigation__type_support.cpp.o[0m
+[1.593s] [ 33%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/roboworks_brain_interfaces/srv/arm_brain__type_support.cpp.o[0m
+[1.616s] [ 35%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/arm_brain__type_support.cpp.o[0m
+[1.623s] [ 38%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/roboworks_brain_interfaces/srv/detail/dds_fastrtps/navigation__type_support.cpp.o[0m
+[1.836s] [ 41%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.cpp.o[0m
+[2.244s] [ 43%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/roboworks_brain_interfaces/srv/detail/navigation__type_support.cpp.o[0m
+[2.311s] [ 46%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_cpp.so[0m
+[2.356s] [ 48%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support.c.o[0m
+[2.431s] [ 51%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/roboworks_brain_interfaces/srv/arm_brain__type_support.cpp.o[0m
+[2.459s] [ 51%] Built target roboworks_brain_interfaces__rosidl_typesupport_cpp
+[2.470s] [ 53%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/roboworks_brain_interfaces/srv/detail/navigation__type_support.c.o[0m
+[2.493s] [ 56%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/roboworks_brain_interfaces/srv/navigation__type_support.cpp.o[0m
+[2.501s] [ 58%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roboworks_brain_interfaces/srv/detail/arm_brain__type_support_c.cpp.o[0m
+[2.536s] [ 61%] [32mBuilding CXX object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/roboworks_brain_interfaces/srv/detail/navigation__type_support_c.cpp.o[0m
+[2.582s] [ 64%] [32m[1mLinking C shared library libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so[0m
+[2.587s] [ 66%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_c.so[0m
+[2.632s] [ 69%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.671s] [ 69%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c
+[2.688s] [ 69%] Built target roboworks_brain_interfaces__rosidl_typesupport_c
+[2.766s] [ 69%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.944s] [ 71%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.047s] [ 71%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_cpp
+[3.062s] [ 74%] [32m[1mLinking CXX shared library libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.168s] [ 74%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c
+[3.209s] [ 74%] Built target roboworks_brain_interfaces
+[3.248s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.983s] [ 76%] Built target roboworks_brain_interfaces__py
+[4.025s] [ 79%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_py.dir/rosidl_generator_py/roboworks_brain_interfaces/srv/_navigation_s.c.o[0m
+[4.025s] [ 82%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_generator_py.dir/rosidl_generator_py/roboworks_brain_interfaces/srv/_arm_brain_s.c.o[0m
+[4.166s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/libroboworks_brain_interfaces__rosidl_generator_py.so[0m
+[4.234s] [ 84%] Built target roboworks_brain_interfaces__rosidl_generator_py
+[4.276s] [ 87%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.276s] [ 89%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.282s] [ 92%] [32mBuilding C object CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/roboworks_brain_interfaces/_roboworks_brain_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.439s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.439s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.446s] [100%] [32m[1mLinking C shared library rosidl_generator_py/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.520s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.520s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.528s] [100%] Built target roboworks_brain_interfaces__rosidl_typesupport_c__pyext

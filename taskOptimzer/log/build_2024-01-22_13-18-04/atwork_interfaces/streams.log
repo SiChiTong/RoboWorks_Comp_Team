@@ -1,0 +1,304 @@
+[0.117s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces -- -j8 -l8
+[0.152s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.298s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.326s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.329s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.335s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.349s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.488s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.783s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.377s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.401s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.425s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.425s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.425s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.494s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.504s] -- Added test 'lint_cmake' to check CMake code style
+[1.505s] -- Added test 'xmllint' to check XML markup files
+[1.507s] -- Configuring done
+[1.547s] -- Generating done
+[1.551s] -- Build files have been written to: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces
+[1.589s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.607s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.621s] [  5%] Built target ament_cmake_python_copy_atwork_interfaces
+[1.930s] running egg_info
+[1.931s] writing atwork_interfaces.egg-info/PKG-INFO
+[1.931s] writing dependency_links to atwork_interfaces.egg-info/dependency_links.txt
+[1.931s] writing top-level names to atwork_interfaces.egg-info/top_level.txt
+[1.933s] reading manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+[1.935s] writing manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+[1.970s] [  5%] Built target ament_cmake_python_build_atwork_interfaces_egg
+[2.254s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_generator_c[0m
+[2.255s] [  5%] Built target atwork_interfaces__cpp
+[2.275s] [  7%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/object__functions.c.o[0m
+[2.275s] [ 10%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/sphere__functions.c.o[0m
+[2.275s] [ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.280s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.280s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.362s] [ 20%] [32m[1mLinking C shared library libatwork_interfaces__rosidl_generator_c.so[0m
+[2.417s] [ 20%] Built target atwork_interfaces__rosidl_generator_c
+[2.437s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.441s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.443s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.993s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[3.023s] [ 30%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[3.025s] [ 33%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[3.194s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_introspection_c[0m
+[3.223s] [ 38%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/atwork_interfaces/msg/detail/sphere__type_support.c.o[0m
+[3.223s] [ 38%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/atwork_interfaces/msg/detail/object__type_support.c.o[0m
+[3.268s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_cpp[0m
+[3.297s] [ 41%] [32m[1mLinking C shared library libatwork_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.300s] [ 43%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/object__type_support.cpp.o[0m
+[3.310s] [ 46%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.318s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_introspection_cpp[0m
+[3.353s] [ 48%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__type_support.cpp.o[0m
+[3.382s] [ 48%] Built target atwork_interfaces__rosidl_typesupport_introspection_c
+[3.406s] [ 51%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[3.587s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_c[0m
+[3.615s] [ 53%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/atwork_interfaces/msg/object__type_support.cpp.o[0m
+[3.669s] [ 56%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/atwork_interfaces/msg/sphere__type_support.cpp.o[0m
+[3.677s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_fastrtps_c[0m
+[3.709s] [ 58%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/object__type_support_c.cpp.o[0m
+[3.709s] [ 61%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[3.735s] [ 64%] [32m[1mLinking CXX shared library libatwork_interfaces__rosidl_typesupport_c.so[0m
+[3.758s] [ 66%] [32m[1mLinking CXX shared library libatwork_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.835s] [ 66%] Built target atwork_interfaces__rosidl_typesupport_c
+[3.839s] [ 69%] [32m[1mLinking CXX shared library libatwork_interfaces__rosidl_typesupport_cpp.so[0m
+[3.924s] [ 69%] Built target atwork_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.929s] [ 69%] Built target atwork_interfaces__rosidl_typesupport_cpp
+[4.023s] [ 71%] [32m[1mLinking CXX shared library libatwork_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[4.111s] [ 71%] Built target atwork_interfaces__rosidl_typesupport_introspection_cpp
+[4.136s] [ 74%] [32m[1mLinking CXX shared library libatwork_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[4.231s] [ 74%] Built target atwork_interfaces__rosidl_typesupport_fastrtps_c
+[4.267s] [ 74%] Built target atwork_interfaces
+[4.304s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.284s] [ 76%] Built target atwork_interfaces__py
+[5.301s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_generator_py[0m
+[5.321s] [ 82%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_py.dir/rosidl_generator_py/atwork_interfaces/msg/_object_s.c.o[0m
+[5.321s] [ 82%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_py.dir/rosidl_generator_py/atwork_interfaces/msg/_sphere_s.c.o[0m
+[5.436s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/atwork_interfaces/libatwork_interfaces__rosidl_generator_py.so[0m
+[5.493s] [ 84%] Built target atwork_interfaces__rosidl_generator_py
+[5.511s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_c__pyext[0m
+[5.511s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.511s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[5.532s] [ 92%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.532s] [ 92%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[5.532s] [ 92%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.654s] [100%] [32m[1mLinking C shared library rosidl_generator_py/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.654s] [100%] [32m[1mLinking C shared library rosidl_generator_py/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.654s] [100%] [32m[1mLinking C shared library rosidl_generator_py/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.712s] [100%] Built target atwork_interfaces__rosidl_typesupport_introspection_c__pyext
+[5.712s] [100%] Built target atwork_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[5.713s] [100%] Built target atwork_interfaces__rosidl_typesupport_c__pyext
+[5.729s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces -- -j8 -l8
+[5.931s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces
+[5.943s] -- Install configuration: ""
+[5.944s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/ament_index/resource_index/rosidl_interfaces/atwork_interfaces
+[5.944s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.944s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.944s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/sphere.h
+[5.944s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.944s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__functions.h
+[5.944s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__functions.h
+[5.945s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__functions.c
+[5.945s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__functions.c
+[5.945s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__type_support.h
+[5.945s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__functions.c
+[5.945s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__struct.h
+[5.945s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__struct.h
+[5.945s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__functions.c
+[5.945s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__struct.h
+[5.945s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__type_support.h
+[5.946s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__functions.h
+[5.946s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__type_support.h
+[5.946s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__functions.h
+[5.946s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__type_support.h
+[5.946s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__struct.h
+[5.946s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__type_support.h
+[5.946s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__struct.h
+[5.946s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__functions.c
+[5.946s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__functions.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/task.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/robot_header.h
+[5.947s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/object.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/workstation.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/rosidl_generator_c__visibility_control.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/generate_task.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__functions.h
+[5.947s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__struct.h
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__functions.c
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__type_support.h
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/library_path.sh
+[5.948s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/library_path.dsv
+[5.948s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_c.so
+[5.948s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_c.so" to ""
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.948s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.948s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h
+[5.949s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[5.949s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.949s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_c.so
+[5.949s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[5.949s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.949s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.949s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/task.hpp
+[5.949s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/sphere.hpp
+[5.950s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/object.hpp
+[5.950s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/workstation.hpp
+[5.950s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.950s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__traits.hpp
+[5.950s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__struct.hpp
+[5.950s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__traits.hpp
+[5.950s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__traits.hpp
+[5.950s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__struct.hpp
+[5.951s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__builder.hpp
+[5.951s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__struct.hpp
+[5.951s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__builder.hpp
+[5.951s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__builder.hpp
+[5.951s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__struct.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__traits.hpp
+[5.952s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__builder.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__builder.hpp
+[5.952s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__traits.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__struct.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/robot_header.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/generate_task.hpp
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail
+[5.952s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__struct.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__traits.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__builder.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.953s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/dds_fastrtps
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail
+[5.953s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/dds_fastrtps
+[5.954s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__rosidl_typesupport_fastrtps_cpp.hpp
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[5.954s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.954s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.954s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.954s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__type_support.c
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__type_support.c
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__rosidl_typesupport_introspection_c.h
+[5.954s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_c.so
+[5.954s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[5.954s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_c.so
+[5.955s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_c.so" to ""
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail
+[5.955s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__type_support.cpp
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__type_support.cpp
+[5.955s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/workstation__rosidl_typesupport_introspection_cpp.hpp
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__rosidl_typesupport_introspection_cpp.hpp
+[5.955s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/sphere__type_support.cpp
+[5.955s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/object__type_support.cpp
+[5.955s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp
+[5.956s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/msg/detail/robot_header__type_support.cpp
+[5.956s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv
+[5.956s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail
+[5.956s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__rosidl_typesupport_introspection_cpp.hpp
+[5.956s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/generate_task__type_support.cpp
+[5.956s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_cpp.so
+[5.956s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[5.956s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_cpp.so
+[5.957s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_typesupport_cpp.so" to ""
+[5.957s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/pythonpath.sh
+[5.957s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/pythonpath.dsv
+[5.957s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces-0.0.0-py3.10.egg-info
+[5.957s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[5.957s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[5.958s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/libatwork_interfaces__rosidl_generator_py.so
+[5.958s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/__init__.py
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/_atwork_interfaces_s.ep.rosidl_typesupport_c.c
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.959s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_sphere.py
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_object_s.c
+[5.959s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_object.py
+[5.960s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/__init__.py
+[5.960s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_sphere_s.c
+[5.998s] Listing '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces'...
+[5.999s] Compiling '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/__init__.py'...
+[5.999s] Listing '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg'...
+[5.999s] Compiling '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/__init__.py'...
+[5.999s] Compiling '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_object.py'...
+[5.999s] Compiling '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/msg/_sphere.py'...
+[6.003s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.004s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.004s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.004s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.005s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.005s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/local/lib/python3.10/dist-packages/atwork_interfaces/atwork_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.005s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_py.so
+[6.006s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib/libatwork_interfaces__rosidl_generator_py.so" to ""
+[6.006s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Object.idl
+[6.006s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Sphere.idl
+[6.007s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Object.msg
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Sphere.msg
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/ament_index/resource_index/package_run_dependencies/atwork_interfaces
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/ament_index/resource_index/parent_prefix_path/atwork_interfaces
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/ament_prefix_path.sh
+[6.007s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/ament_prefix_path.dsv
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/path.sh
+[6.007s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/environment/path.dsv
+[6.007s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/local_setup.bash
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/local_setup.sh
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/local_setup.zsh
+[6.008s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/local_setup.dsv
+[6.008s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/package.dsv
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/ament_index/resource_index/packages/atwork_interfaces
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_generator_cExport.cmake
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_generator_cExport-noconfig.cmake
+[6.008s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_generator_cppExport.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.009s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_cExport.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_cppExport.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_generator_pyExport.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/export_atwork_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[6.010s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/rosidl_cmake-extras.cmake
+[6.010s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfacesConfig.cmake
+[6.011s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/cmake/atwork_interfacesConfig-version.cmake
+[6.012s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/package.xml
+[6.012s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces

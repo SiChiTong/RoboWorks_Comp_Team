@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__type_support.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/workstation__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/workstation__type_support.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/task_opt__type_support.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/task_opt__type_support.cpp.o.d"
+  "libatwork_interfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libatwork_interfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/workstation__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/workstation__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/task_opt__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/task_opt__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

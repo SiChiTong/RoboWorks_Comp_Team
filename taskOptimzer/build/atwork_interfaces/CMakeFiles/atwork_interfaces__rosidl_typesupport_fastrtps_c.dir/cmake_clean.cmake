@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/object__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/object__type_support_c.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/robot_header__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/robot_header__type_support_c.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/task__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/task__type_support_c.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/workstation__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/workstation__type_support_c.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/generate_task__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/generate_task__type_support_c.cpp.o.d"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/task_opt__type_support_c.cpp.o"
+  "CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/task_opt__type_support_c.cpp.o.d"
+  "libatwork_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "libatwork_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/object__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/object__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/robot_header__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/robot_header__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/task__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/workstation__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/msg/detail/workstation__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/generate_task__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/generate_task__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/task_opt__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/atwork_interfaces/srv/detail/task_opt__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

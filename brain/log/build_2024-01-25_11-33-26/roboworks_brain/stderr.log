@@ -1,0 +1,95 @@
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:197:53:[m[K [01;31m[Kerror: [m[K‘[01m[KTaskOpt[m[K’ is not a member of ‘[01m[Kroboworks_brain_interfaces::srv[m[K’; did you mean ‘[01m[Katwork_interfaces::srv::TaskOpt[m[K’?
+  197 |     rclcpp::Client<roboworks_brain_interfaces::srv::[01;31m[KTaskOpt[m[K>::SharedPtr taskOp_client;
+      |                                                     [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/task_opt.hpp:7[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:6[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/include/atwork_interfaces/atwork_interfaces/srv/detail/task_opt__struct.hpp:240:8:[m[K [01;36m[Knote: [m[K‘[01m[Katwork_interfaces::srv::TaskOpt[m[K’ declared here
+  240 | struct [01;36m[KTaskOpt[m[K
+      |        [01;36m[K^~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:197:60:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  197 |     rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt[01;31m[K>[m[K::SharedPtr taskOp_client;
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:197:63:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  197 |   rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt>::[01;31m[KSharedPtr[m[K taskOp_client;
+      |                                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                                      [32m[K;[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:197:73:[m[K [01;31m[Kerror: [m[K‘[01m[KtaskOp_client[m[K’ does not name a type
+  197 | Client<roboworks_brain_interfaces::srv::TaskOpt>::SharedPtr [01;31m[KtaskOp_client[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In constructor ‘[01m[KbrainNode::brainNode()[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:26:7:[m[K [01;31m[Kerror: [m[K‘[01m[KtaskOp_client[m[K’ was not declared in this scope
+   26 |       [01;31m[KtaskOp_client[m[K = this->create_client<atwork_interfaces::srv::TaskOpt>("get_opt_list");
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::AT_callback(const String&)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:48:7:[m[K [01;31m[Kerror: [m[K‘[01m[KtaskOp_client[m[K’ was not declared in this scope
+   48 |       [01;31m[KtaskOp_client[m[K->async_send_request(requestTaskOpt, std::bind(&brainNode::controller, this, _1));
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::controller(brainNode::ServiceResponseFuture)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:59:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Katwork_interfaces::srv::TaskOpt_Response_<std::allocator<void> >::_masterlist_type[m[K’ {aka ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   59 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%s'"[m[K, result->masterlist);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:59:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   59 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%s[m[K'", result->masterlist);
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::moving(brainNode::ServiceResponseMoving)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:135:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kroboworks_brain_interfaces::srv::Navigation_Response_<std::allocator<void> >::_instruction_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  135 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"moving heard new task: '%s'"[m[K, result->instruction);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:135:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  135 |   RCLCPP_INFO(this->get_logger(), "moving heard new task: '[01;36m[K%s[m[K'", result->instruction);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::pickPlace(brainNode::ServiceResponsePickPlace)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:156:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kroboworks_brain_interfaces::srv::ArmBrain_Response_<std::allocator<void> >::_instruction_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  156 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"pickPlace heard new task: '%s'"[m[K, result->instruction);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:156:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  156 | CLCPP_INFO(this->get_logger(), "pickPlace heard new task: '[01;36m[K%s[m[K'", result->instruction);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+gmake[2]: *** [CMakeFiles/brain_node.dir/build.make:76: CMakeFiles/brain_node.dir/src/brain_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/brain_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

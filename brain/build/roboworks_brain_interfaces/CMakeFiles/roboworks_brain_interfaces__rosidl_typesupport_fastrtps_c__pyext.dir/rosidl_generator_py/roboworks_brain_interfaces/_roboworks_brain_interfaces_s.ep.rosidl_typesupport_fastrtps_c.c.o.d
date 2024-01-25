@@ -215,7 +215,4 @@ CMakeFiles/roboworks_brain_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.h \
- /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h \
- /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__type_support.h \
- /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__struct.h \
- /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/task_opt__functions.h
+ /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_c/roboworks_brain_interfaces/srv/detail/navigation__functions.h

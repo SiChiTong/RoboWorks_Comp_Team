@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target taskOpt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o[0m
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/roboworks_taskOpt/src/taskOpt.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kasdfas[m[K’ does not name a type
+   21 | [01;31m[Kasdfas[m[K
+      | [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/taskOpt.dir/build.make:76: CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/taskOpt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,59 @@
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.h:19[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c:4[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__struct.h:30:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.h: No such file or directory
+   30 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__struct.h:45[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.h:19[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c:4[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__struct.h:30:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.h: No such file or directory
+   30 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/build.make:274: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/build.make:302: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_cpp/atwork_interfaces/msg/task__type_support.cpp:7[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.hpp: No such file or directory
+   28 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/build.make:195: CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/task__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/srv/detail/generate_task__struct.hpp:134[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_cpp/atwork_interfaces/srv/generate_task__type_support.cpp:7[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.hpp: No such file or directory
+   28 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/build.make:223: CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/srv/generate_task__type_support.cpp.o] Error 1
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp:12[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.hpp: No such file or directory
+   28 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:215: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp:4[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.hpp: No such file or directory
+   28 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:215: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/srv/detail/generate_task__struct.hpp:134[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/srv/detail/generate_task__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/srv/detail/dds_fastrtps/generate_task__type_support.cpp:4[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:28:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/detail/duration__struct.hpp: No such file or directory
+   28 | #include [01;31m[K"std_msgs/msg/detail/duration__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:243: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/srv/detail/dds_fastrtps/generate_task__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

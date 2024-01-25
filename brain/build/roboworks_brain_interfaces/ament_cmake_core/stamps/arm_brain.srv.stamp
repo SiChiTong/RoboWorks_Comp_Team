@@ -1,6 +1,0 @@
-# service format between arm_brain and brain nodes
-uint32 operation_type  # 0 is pick up, 1 is place
-uint32 object_id  # int to indicate which object to perform operation
----
-uint32 success  # 1 indicates task is complete, 0 means task failed
-string instruction # a requested instruction to be done before the next task in the master task list (e.g. to move left/right a little bit)

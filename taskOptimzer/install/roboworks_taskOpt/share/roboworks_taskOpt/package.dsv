@@ -1,0 +1,8 @@
+source;share/roboworks_taskOpt/hook/cmake_prefix_path.ps1
+source;share/roboworks_taskOpt/hook/cmake_prefix_path.dsv
+source;share/roboworks_taskOpt/hook/cmake_prefix_path.sh
+source;share/roboworks_taskOpt/local_setup.bash
+source;share/roboworks_taskOpt/local_setup.dsv
+source;share/roboworks_taskOpt/local_setup.ps1
+source;share/roboworks_taskOpt/local_setup.sh
+source;share/roboworks_taskOpt/local_setup.zsh

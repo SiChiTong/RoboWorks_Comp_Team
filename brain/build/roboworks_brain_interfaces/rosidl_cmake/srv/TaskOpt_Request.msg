@@ -1,3 +1,0 @@
-# service format between task optimizer and brain nodes
-string task_list  # List of tasks to be completed (from atwork commander
-string game_state # Game state desired (from atwork commander)

@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from atwork_interfaces/msg/Task.msg
+// generated code does not contain a copyright notice
+
+#include "atwork_interfaces/msg/RobotHeader.idl"
+#include "atwork_interfaces/msg/Workstation.idl"
+#include "builtin_interfaces/msg/Duration.idl"
+#include "std_msgs/msg/Header.idl"
+
+module atwork_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Task.msg")
+    struct Task {
+      std_msgs::msg::Header header;
+
+      sequence<atwork_interfaces::msg::RobotHeader> execute_on;
+
+      sequence<atwork_interfaces::msg::Workstation> arena_start_state;
+
+      sequence<atwork_interfaces::msg::Workstation> arena_target_state;
+
+      builtin_interfaces::msg::Duration prep_time;
+
+      builtin_interfaces::msg::Duration exec_time;
+
+      string type;
+
+      uint64 id;
+
+      string config;
+
+      uint64 commit;
+    };
+  };
+};

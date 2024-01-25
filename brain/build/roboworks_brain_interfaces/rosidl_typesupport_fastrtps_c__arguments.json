@@ -4,8 +4,7 @@
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource",
   "idl_tuples": [
     "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces:srv/ArmBrain.idl",
-    "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces:srv/Navigation.idl",
-    "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces:srv/TaskOpt.idl"
+    "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces:srv/Navigation.idl"
   ],
   "ros_interface_dependencies": [
     "geometry_msgs:/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
@@ -72,7 +71,13 @@
     "rosgraph_msgs:/opt/ros/humble/share/rosgraph_msgs/msg/Clock.idl",
     "statistics_msgs:/opt/ros/humble/share/statistics_msgs/msg/MetricsMessage.idl",
     "statistics_msgs:/opt/ros/humble/share/statistics_msgs/msg/StatisticDataPoint.idl",
-    "statistics_msgs:/opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl"
+    "statistics_msgs:/opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Object.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/RobotHeader.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Task.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Workstation.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/GenerateTask.idl",
+    "atwork_interfaces:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/TaskOpt.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_c/rosidl_typesupport_fastrtps_c",
@@ -85,7 +90,6 @@
     "/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em",
     "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/ArmBrain.idl",
     "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/Navigation.idl",
-    "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/TaskOpt.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/Accel.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl",
     "/opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl",
@@ -150,6 +154,12 @@
     "/opt/ros/humble/share/rosgraph_msgs/msg/Clock.idl",
     "/opt/ros/humble/share/statistics_msgs/msg/MetricsMessage.idl",
     "/opt/ros/humble/share/statistics_msgs/msg/StatisticDataPoint.idl",
-    "/opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl"
+    "/opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Object.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/RobotHeader.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Task.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Workstation.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/GenerateTask.idl",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/TaskOpt.idl"
   ]
 }

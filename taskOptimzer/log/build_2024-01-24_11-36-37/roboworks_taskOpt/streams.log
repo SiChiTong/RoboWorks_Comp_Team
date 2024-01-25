@@ -1,0 +1,25 @@
+[0.124s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt -- -j8 -l8
+[0.208s] [ 50%] [32mBuilding CXX object CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o[0m
+[2.757s] [100%] [32m[1mLinking CXX executable taskOpt[0m
+[2.897s] [100%] Built target taskOpt
+[2.913s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt -- -j8 -l8
+[2.979s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt
+[2.991s] -- Install configuration: ""
+[2.991s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/lib/roboworks_taskOpt/taskOpt
+[2.992s] -- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/lib/roboworks_taskOpt/taskOpt" to ""
+[2.992s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/package_run_dependencies/roboworks_taskOpt
+[2.992s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/parent_prefix_path/roboworks_taskOpt
+[2.992s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/ament_prefix_path.sh
+[2.992s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/ament_prefix_path.dsv
+[2.992s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/path.sh
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/path.dsv
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.bash
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.sh
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.zsh
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.dsv
+[2.993s] -- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/package.dsv
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/packages/roboworks_taskOpt
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/cmake/roboworks_taskOptConfig.cmake
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/cmake/roboworks_taskOptConfig-version.cmake
+[2.993s] -- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/package.xml
+[2.994s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt

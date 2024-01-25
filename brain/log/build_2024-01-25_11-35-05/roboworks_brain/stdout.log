@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable brain_node[0m
+[100%] Built target brain_node
+-- Install configuration: ""
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/lib/roboworks_brain/brain_node
+-- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/lib/roboworks_brain/brain_node" to ""
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/package_run_dependencies/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/parent_prefix_path/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.bash
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.zsh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/packages/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig.cmake
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig-version.cmake
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.xml

@@ -10,12 +10,12 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(atwork_interfaces REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/ArmBrain.srv"
   "srv/Navigation.srv"
-  "srv/TaskOpt.srv"
-  DEPENDENCIES geometry_msgs rclcpp
+  DEPENDENCIES geometry_msgs rclcpp atwork_interfaces
 )
 
 if(BUILD_TESTING)

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_generator_c[0m
+[  3%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__functions.c.o[0m
+[  4%] Built target atwork_interfaces__cpp
+[  6%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c.o[0m
+[  6%] Built target ament_cmake_python_copy_atwork_interfaces
+[35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_introspection_cpp[0m
+[  7%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/robot_header__type_support.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/task__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/srv/generate_task__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/workstation__type_support.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/robot_header__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/workstation__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp.o[0m
+running egg_info
+writing atwork_interfaces.egg-info/PKG-INFO
+writing dependency_links to atwork_interfaces.egg-info/dependency_links.txt
+writing top-level names to atwork_interfaces.egg-info/top_level.txt
+reading manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+[ 22%] Built target ament_cmake_python_build_atwork_interfaces_egg

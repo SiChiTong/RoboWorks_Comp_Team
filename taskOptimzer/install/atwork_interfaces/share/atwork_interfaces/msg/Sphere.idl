@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from atwork_interfaces/msg/Sphere.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module atwork_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "Test.msg")
+    struct Sphere {
+      geometry_msgs::msg::Point center;
+
+      double radius;
+    };
+  };
+};

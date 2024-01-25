@@ -14,6 +14,7 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>roboworks_brain_inferfaces</depend>
+  <depend>atwork_inferfaces</depend>
 
   <export>
     <build_type>ament_cmake</build_type>

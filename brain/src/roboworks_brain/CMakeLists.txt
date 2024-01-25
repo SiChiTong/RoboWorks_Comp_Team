@@ -9,10 +9,11 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(roboworks_brain_interfaces REQUIRED)
+find_package(atwork_interfaces REQUIRED)
 find_package(std_msgs REQUIRED)
 
 add_executable(brain_node src/brain_node.cpp)
-ament_target_dependencies(brain_node rclcpp std_msgs roboworks_brain_interfaces)
+ament_target_dependencies(brain_node rclcpp std_msgs roboworks_brain_interfaces atwork_interfaces)
 
 target_include_directories(brain_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>

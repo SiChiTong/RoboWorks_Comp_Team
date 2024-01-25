@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target taskOpt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o[0m
+[01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/roboworks_taskOpt/src/taskOpt.cpp:21:10:[m[K [01;31m[Kfatal error: [m[Knotreal: No such file or directory
+   21 | #include [01;31m[K"notreal"[m[K
+      |          [01;31m[K^~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/taskOpt.dir/build.make:76: CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/taskOpt.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

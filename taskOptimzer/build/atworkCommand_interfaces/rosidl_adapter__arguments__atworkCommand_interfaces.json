@@ -1,0 +1,10 @@
+{
+  "package_name": "atworkCommand_interfaces",
+  "non_idl_tuples": [
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/atworkCommand_interfaces:msg/Object.msg",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/atworkCommand_interfaces:msg/RobotHeader.msg",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/atworkCommand_interfaces:msg/Task.msg",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/atworkCommand_interfaces:msg/Workstation.msg",
+    "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/atworkCommand_interfaces:srv/GenerateTask.srv"
+  ]
+}

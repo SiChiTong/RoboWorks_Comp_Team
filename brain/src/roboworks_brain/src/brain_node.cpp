@@ -2,7 +2,9 @@
 #include "std_msgs/msg/string.hpp"
 #include "roboworks_brain_interfaces/srv/arm_brain.hpp"
 #include "roboworks_brain_interfaces/srv/navigation.hpp"
-#include "roboworks_brain_interfaces/srv/task_opt.hpp"
+#include "atwork_interfaces/msg/task.hpp"
+#include "atwork_interfaces/srv/task_opt.hpp"
+
 
 #include <chrono>
 #include <cstdlib>
@@ -11,7 +13,6 @@
 #include <list>
 #include <string>
 #include <iostream>
-
 
 using std::placeholders::_1;
 
@@ -22,7 +23,7 @@ class brainNode : public rclcpp::Node
     brainNode()
     : Node("brainNode")
     {
-      taskOp_client = this->create_client<roboworks_brain_interfaces::srv::TaskOpt>("get_opt_list");
+      taskOp_client = this->create_client<atwork_interfaces::srv::TaskOpt>("get_opt_list");
       armPickPlace_client = this->create_client<roboworks_brain_interfaces::srv::ArmBrain>("pick_place");
       navTo_client = this->create_client<roboworks_brain_interfaces::srv::Navigation>("go_to_position");
       
@@ -38,11 +39,10 @@ class brainNode : public rclcpp::Node
       RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg.data.c_str());
 
       // Take list from AT_Commander and give it 
-      auto requestTaskOpt = std::make_shared<roboworks_brain_interfaces::srv::TaskOpt::Request>();
+      auto requestTaskOpt = std::make_shared<atwork_interfaces::srv::TaskOpt::Request>();
 
       //Populate request here and send bellow
-      requestTaskOpt->task_list = "Task list goes here";
-      requestTaskOpt->game_state = "Game state goes here";
+      //requestTaskOpt->task_list = "Task list goes here";
 
       // Bind request reciveing to master function
       taskOp_client->async_send_request(requestTaskOpt, std::bind(&brainNode::controller, this, _1));
@@ -50,7 +50,7 @@ class brainNode : public rclcpp::Node
 
 
     // MASTER FUNCTION, this takes in the optimized list and sends commands based on that list
-    using ServiceResponseFuture = rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt>::SharedFuture;
+    using ServiceResponseFuture = rclcpp::Client<atwork_interfaces::srv::TaskOpt>::SharedFuture;
     void controller(ServiceResponseFuture future)
     {
       auto result = future.get();
@@ -194,7 +194,7 @@ class brainNode : public rclcpp::Node
     // Client node to get optimized task list from the task_optimiser
     // Request: {Task List, Robot Position} 
     // Response: Optimised Command List
-    rclcpp::Client<roboworks_brain_interfaces::srv::TaskOpt>::SharedPtr taskOp_client;
+    rclcpp::Client<atwork_interfaces::srv::TaskOpt>::SharedPtr taskOp_client;
 
     // Client node to get the arm to collect or place an item
     // Request: {Item ID, Operation(Collect/Place)}

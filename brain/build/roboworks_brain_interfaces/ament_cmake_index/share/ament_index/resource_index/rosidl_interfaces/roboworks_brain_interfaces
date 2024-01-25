@@ -6,7 +6,3 @@ srv/Navigation.idl
 srv/Navigation.srv
 srv/Navigation_Request.msg
 srv/Navigation_Response.msg
-srv/TaskOpt.idl
-srv/TaskOpt.srv
-srv/TaskOpt_Request.msg
-srv/TaskOpt_Response.msg

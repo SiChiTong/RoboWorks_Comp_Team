@@ -1,0 +1,122 @@
+[0.113s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces -- -j8 -l8
+[0.149s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.328s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.334s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.805s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.396s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.421s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.445s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.445s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.445s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.515s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.525s] -- Added test 'lint_cmake' to check CMake code style
+[1.526s] -- Added test 'xmllint' to check XML markup files
+[1.528s] -- Configuring done
+[1.574s] -- Generating done
+[1.578s] -- Build files have been written to: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces
+[1.617s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_generator_c[0m
+[1.642s] [  1%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c.o[0m
+[1.642s] [  3%] Built target atwork_interfaces__cpp
+[1.642s] [  4%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__functions.c.o[0m
+[1.643s] [  6%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/workstation__functions.c.o[0m
+[1.644s] [  7%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/object__functions.c.o[0m
+[1.644s] [  9%] [32mBuilding C object CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c.o[0m
+[1.662s] [  9%] Built target ament_cmake_python_copy_atwork_interfaces
+[1.670s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_cpp[0m
+[1.671s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.h:19[m[K,
+[1.672s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c:4[m[K:
+[1.672s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.h: No such file or directory
+[1.672s]    22 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.h"[m[K
+[1.672s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.672s] compilation terminated.
+[1.672s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.673s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__functions.h:19[m[K,
+[1.673s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__functions.c:4[m[K:
+[1.673s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.h: No such file or directory
+[1.673s]    22 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.h"[m[K
+[1.674s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.674s] compilation terminated.
+[1.675s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__struct.h:45[m[K,
+[1.676s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.h:19[m[K,
+[1.676s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c:4[m[K:
+[1.676s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_c/atwork_interfaces/msg/detail/task__struct.h:22:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.h: No such file or directory
+[1.676s]    22 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.h"[m[K
+[1.676s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.676s] compilation terminated.
+[1.689s] [35m[1mConsolidate compiler generated dependencies of target atwork_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.693s] [ 11%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/object__type_support.cpp.o[0m
+[1.695s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/build.make:242: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/robot_header__functions.c.o] Error 1
+[1.696s] gmake[2]: *** Waiting for unfinished jobs....
+[1.696s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/build.make:256: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/msg/detail/task__functions.c.o] Error 1
+[1.696s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/build.make:284: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/rosidl_generator_c/atwork_interfaces/srv/detail/generate_task__functions.c.o] Error 1
+[1.705s] [ 12%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/object__type_support.cpp.o[0m
+[1.717s] [ 14%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/robot_header__type_support.cpp.o[0m
+[1.719s] [ 15%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/robot_header__type_support.cpp.o[0m
+[1.719s] [ 17%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/object__type_support.cpp.o[0m
+[1.723s] gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/atwork_interfaces__rosidl_generator_c.dir/all] Error 2
+[1.723s] gmake[1]: *** Waiting for unfinished jobs....
+[1.739s] [ 19%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp.o[0m
+[1.744s] [ 20%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o[0m
+[1.834s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_cpp/atwork_interfaces/msg/robot_header__type_support.cpp:7[m[K:
+[1.834s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/robot_header__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[1.835s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[1.835s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.835s] compilation terminated.
+[1.837s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/robot_header__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[1.837s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/robot_header__type_support.cpp:4[m[K:
+[1.838s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/robot_header__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[1.838s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[1.838s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.838s] compilation terminated.
+[1.839s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/build.make:175: CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/atwork_interfaces/msg/robot_header__type_support.cpp.o] Error 1
+[1.839s] gmake[2]: *** Waiting for unfinished jobs....
+[1.839s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:192: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/robot_header__type_support.cpp.o] Error 1
+[1.840s] gmake[2]: *** Waiting for unfinished jobs....
+[1.854s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/task__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[1.854s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp:4[m[K:
+[1.854s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[1.855s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[1.855s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.855s] compilation terminated.
+[1.858s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:206: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/atwork_interfaces/msg/detail/dds_fastrtps/task__type_support.cpp.o] Error 1
+[1.859s] [ 22%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o[0m
+[1.861s] [ 23%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/workstation__type_support.cpp.o[0m
+[1.869s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp:12[m[K:
+[1.869s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/robot_header__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[1.870s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[1.870s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.870s] compilation terminated.
+[1.873s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:192: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/robot_header__type_support.cpp.o] Error 1
+[1.873s] gmake[2]: *** Waiting for unfinished jobs....
+[1.879s] [ 25%] [32mBuilding CXX object CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp.o[0m
+[1.965s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp:12[m[K:
+[1.966s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[1.966s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[1.966s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.966s] compilation terminated.
+[1.973s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:206: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/msg/detail/task__type_support.cpp.o] Error 1
+[2.003s] In file included from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/srv/detail/generate_task__struct.hpp:134[m[K,
+[2.003s]                  from [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp:12[m[K:
+[2.003s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces/rosidl_generator_cpp/atwork_interfaces/msg/detail/task__struct.hpp:20:10:[m[K [01;31m[Kfatal error: [m[Katwork_interfaces/msg/detail/header__struct.hpp: No such file or directory
+[2.003s]    20 | #include [01;31m[K"atwork_interfaces/msg/detail/header__struct.hpp"[m[K
+[2.004s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.004s] compilation terminated.
+[2.006s] gmake[2]: *** [CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:234: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/atwork_interfaces/srv/detail/generate_task__type_support.cpp.o] Error 1
+[2.114s] running egg_info
+[2.115s] writing atwork_interfaces.egg-info/PKG-INFO
+[2.115s] writing dependency_links to atwork_interfaces.egg-info/dependency_links.txt
+[2.116s] writing top-level names to atwork_interfaces.egg-info/top_level.txt
+[2.118s] reading manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+[2.120s] writing manifest file 'atwork_interfaces.egg-info/SOURCES.txt'
+[2.161s] [ 25%] Built target ament_cmake_python_build_atwork_interfaces_egg
+[2.163s] gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/atwork_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[2.249s] gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/atwork_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[2.405s] gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/atwork_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[2.405s] gmake: *** [Makefile:146: all] Error 2
+[2.408s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/atwork_interfaces -- -j8 -l8

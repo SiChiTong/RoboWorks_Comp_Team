@@ -7,6 +7,7 @@
       },
       "includePath": [
         "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain_interfaces/include/**",
+        "/home/jasper/RoboWorks_Comp_Team/brain/install/atwork_interfaces/include/**",
         "/home/jasper/ws_moveit2/install/pilz_industrial_motion_planner_testutils/include/**",
         "/home/jasper/ws_moveit2/install/pilz_industrial_motion_planner/include/**",
         "/home/jasper/ws_moveit2/install/moveit_visual_tools/include/**",
@@ -43,6 +44,7 @@
         "/opt/ros/humble/include/**",
         "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/include/**",
         "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces/include/**",
+        "/home/jasper/RoboWorks_Comp_Team/brain/src/atwork_interfaces/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

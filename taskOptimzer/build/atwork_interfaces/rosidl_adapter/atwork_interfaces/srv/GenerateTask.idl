@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from atwork_interfaces/srv/GenerateTask.srv
+// generated code does not contain a copyright notice
+
+#include "atwork_interfaces/msg/Task.idl"
+
+module atwork_interfaces {
+  module srv {
+    struct GenerateTask_Request {
+      string task_name;
+    };
+    struct GenerateTask_Response {
+      atwork_interfaces::msg::Task task;
+
+      string error;
+    };
+  };
+};

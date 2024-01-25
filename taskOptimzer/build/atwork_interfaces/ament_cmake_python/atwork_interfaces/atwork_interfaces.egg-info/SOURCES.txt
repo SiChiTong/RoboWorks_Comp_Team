@@ -1,0 +1,15 @@
+setup.py
+atwork_interfaces/__init__.py
+atwork_interfaces.egg-info/PKG-INFO
+atwork_interfaces.egg-info/SOURCES.txt
+atwork_interfaces.egg-info/dependency_links.txt
+atwork_interfaces.egg-info/top_level.txt
+atwork_interfaces/msg/__init__.py
+atwork_interfaces/msg/_object.py
+atwork_interfaces/msg/_robot_header.py
+atwork_interfaces/msg/_sphere.py
+atwork_interfaces/msg/_task.py
+atwork_interfaces/msg/_workstation.py
+atwork_interfaces/srv/__init__.py
+atwork_interfaces/srv/_generate_task.py
+atwork_interfaces/srv/_task_opt.py

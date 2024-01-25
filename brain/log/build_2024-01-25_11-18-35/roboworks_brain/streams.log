@@ -1,0 +1,33 @@
+[0.239s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain -DCMAKE_INSTALL_PREFIX=/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain
+[0.259s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.472s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.508s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.511s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.518s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.568s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.658s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.662s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.843s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.051s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[1.051s]   By not providing "Findroboworks_brain_interfaces.cmake" in
+[1.051s]   CMAKE_MODULE_PATH this project has asked CMake to find a package
+[1.051s]   configuration file provided by "roboworks_brain_interfaces", but CMake did
+[1.051s]   not find one.
+[1.051s] 
+[1.051s]   Could not find a package configuration file provided by
+[1.051s]   "roboworks_brain_interfaces" with any of the following names:
+[1.052s] 
+[1.052s]     roboworks_brain_interfacesConfig.cmake
+[1.052s]     roboworks_brain_interfaces-config.cmake
+[1.052s] 
+[1.052s]   Add the installation prefix of "roboworks_brain_interfaces" to
+[1.052s]   CMAKE_PREFIX_PATH or set "roboworks_brain_interfaces_DIR" to a directory
+[1.052s]   containing one of the above files.  If "roboworks_brain_interfaces"
+[1.052s]   provides a separate development package or SDK, be sure it has been
+[1.052s]   installed.
+[1.052s] 
+[1.052s] [0m
+[1.053s] -- Configuring incomplete, errors occurred!
+[1.053s] See also "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain/CMakeFiles/CMakeOutput.log".
+[1.066s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain -DCMAKE_INSTALL_PREFIX=/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain

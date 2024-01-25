@@ -1,0 +1,16 @@
+msg/Object.idl
+msg/Object.msg
+msg/RobotHeader.idl
+msg/RobotHeader.msg
+msg/Task.idl
+msg/Task.msg
+msg/Workstation.idl
+msg/Workstation.msg
+srv/GenerateTask.idl
+srv/GenerateTask.srv
+srv/GenerateTask_Request.msg
+srv/GenerateTask_Response.msg
+srv/TaskOpt.idl
+srv/TaskOpt.srv
+srv/TaskOpt_Request.msg
+srv/TaskOpt_Response.msg

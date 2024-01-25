@@ -1,0 +1,10 @@
+[0.116s] Invoking command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt -- -j8 -l8
+[0.179s] [35m[1mConsolidate compiler generated dependencies of target taskOpt[0m
+[0.205s] [ 50%] [32mBuilding CXX object CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o[0m
+[2.354s] [01m[K/home/jasper/RoboWorks_Comp_Team/taskOptimzer/src/roboworks_taskOpt/src/taskOpt.cpp:21:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kasdfas[m[K’ does not name a type
+[2.354s]    21 | [01;31m[Kasdfas[m[K
+[2.354s]       | [01;31m[K^~~~~~[m[K
+[2.751s] gmake[2]: *** [CMakeFiles/taskOpt.dir/build.make:76: CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o] Error 1
+[2.752s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/taskOpt.dir/all] Error 2
+[2.752s] gmake: *** [Makefile:146: all] Error 2
+[2.754s] Invoked command in '/home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jasper/ws_moveit2/install/moveit_configs_utils:/home/jasper/ws_moveit2/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/jasper/RoboWorks_Comp_Team/taskOptimzer/build/roboworks_taskOpt -- -j8 -l8

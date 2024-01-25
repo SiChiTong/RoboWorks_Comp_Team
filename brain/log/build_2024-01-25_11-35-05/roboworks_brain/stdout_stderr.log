@@ -1,0 +1,87 @@
+[35m[1mConsolidate compiler generated dependencies of target brain_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/brain_node.dir/src/brain_node.cpp.o[0m
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::controller(brainNode::ServiceResponseFuture)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:59:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Katwork_interfaces::srv::TaskOpt_Response_<std::allocator<void> >::_masterlist_type[m[K’ {aka ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   59 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%s'"[m[K, result->masterlist);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:59:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   59 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%s[m[K'", result->masterlist);
+      |                                                  [01;36m[K~^[m[K
+      |                                                   [01;36m[K|[m[K
+      |                                                   [01;36m[Kchar*[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::moving(brainNode::ServiceResponseMoving)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:135:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kroboworks_brain_interfaces::srv::Navigation_Response_<std::allocator<void> >::_instruction_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  135 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"moving heard new task: '%s'"[m[K, result->instruction);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:135:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  135 |   RCLCPP_INFO(this->get_logger(), "moving heard new task: '[01;36m[K%s[m[K'", result->instruction);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:1[m[K:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:[m[K In member function ‘[01m[Kvoid brainNode::pickPlace(brainNode::ServiceResponsePickPlace)[m[K’:
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:156:41:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kroboworks_brain_interfaces::srv::ArmBrain_Response_<std::allocator<void> >::_instruction_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  156 |         RCLCPP_INFO(this->get_logger(), [01;35m[K"pickPlace heard new task: '%s'"[m[K, result->instruction);
+      |                                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain/src/brain_node.cpp:156:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+  156 | CLCPP_INFO(this->get_logger(), "pickPlace heard new task: '[01;36m[K%s[m[K'", result->instruction);
+      |                                                            [01;36m[K~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kchar*[m[K
+
+[100%] [32m[1mLinking CXX executable brain_node[0m
+[100%] Built target brain_node
+-- Install configuration: ""
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/lib/roboworks_brain/brain_node
+-- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/lib/roboworks_brain/brain_node" to ""
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/package_run_dependencies/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/parent_prefix_path/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/ament_prefix_path.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/environment/path.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.bash
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.sh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.zsh
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/local_setup.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/ament_index/resource_index/packages/roboworks_brain
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig.cmake
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/cmake/roboworks_brainConfig-version.cmake
+-- Installing: /home/jasper/RoboWorks_Comp_Team/brain/install/roboworks_brain/share/roboworks_brain/package.xml

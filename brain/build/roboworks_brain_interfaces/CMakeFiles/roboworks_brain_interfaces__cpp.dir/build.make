@@ -74,10 +74,6 @@ CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain
 CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__builder.hpp
 CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__struct.hpp
 CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp
-CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/task_opt.hpp
-CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp
-CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp
-CMakeFiles/roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp
 
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -96,7 +92,6 @@ rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humb
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: rosidl_adapter/roboworks_brain_interfaces/srv/ArmBrain.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: rosidl_adapter/roboworks_brain_interfaces/srv/Navigation.idl
-rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: rosidl_adapter/roboworks_brain_interfaces/srv/TaskOpt.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/geometry_msgs/msg/Accel.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelStamped.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/geometry_msgs/msg/AccelWithCovariance.idl
@@ -162,6 +157,12 @@ rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humb
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/statistics_msgs/msg/MetricsMessage.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/statistics_msgs/msg/StatisticDataPoint.idl
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /opt/ros/humble/share/statistics_msgs/msg/StatisticDataType.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Object.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/RobotHeader.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Task.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/msg/Workstation.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/GenerateTask.idl
+rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/share/atwork_interfaces/srv/TaskOpt.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -186,18 +187,6 @@ rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__struct.hp
 rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp
 
-rosidl_generator_cpp/roboworks_brain_interfaces/srv/task_opt.hpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/roboworks_brain_interfaces/srv/task_opt.hpp
-
-rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp
-
-rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp
-
-rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp
-
 roboworks_brain_interfaces__cpp: CMakeFiles/roboworks_brain_interfaces__cpp
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/arm_brain.hpp
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/arm_brain__builder.hpp
@@ -206,11 +195,7 @@ roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__builder.hpp
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__struct.hpp
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/navigation__traits.hpp
-roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__builder.hpp
-roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__struct.hpp
-roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/detail/task_opt__traits.hpp
 roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/navigation.hpp
-roboworks_brain_interfaces__cpp: rosidl_generator_cpp/roboworks_brain_interfaces/srv/task_opt.hpp
 roboworks_brain_interfaces__cpp: CMakeFiles/roboworks_brain_interfaces__cpp.dir/build.make
 .PHONY : roboworks_brain_interfaces__cpp
 

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target taskOpt[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/taskOpt.dir/src/taskOpt.cpp.o[0m
+[100%] [32m[1mLinking CXX executable taskOpt[0m
+[100%] Built target taskOpt
+-- Install configuration: ""
+-- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/lib/roboworks_taskOpt/taskOpt
+-- Set runtime path of "/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/lib/roboworks_taskOpt/taskOpt" to ""
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/package_run_dependencies/roboworks_taskOpt
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/parent_prefix_path/roboworks_taskOpt
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/ament_prefix_path.sh
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/path.sh
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/environment/path.dsv
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.bash
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.sh
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.zsh
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/local_setup.dsv
+-- Installing: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/package.dsv
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/ament_index/resource_index/packages/roboworks_taskOpt
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/cmake/roboworks_taskOptConfig.cmake
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/cmake/roboworks_taskOptConfig-version.cmake
+-- Up-to-date: /home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/roboworks_taskOpt/share/roboworks_taskOpt/package.xml

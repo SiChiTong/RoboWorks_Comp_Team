@@ -70,7 +70,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_c.so"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_c.so")
@@ -97,7 +97,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_c.so")
@@ -124,7 +124,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_c.so")
@@ -147,7 +147,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_c.so")
@@ -178,7 +178,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_fastrtps_cpp.so")
@@ -205,7 +205,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_introspection_cpp.so")
@@ -228,7 +228,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so"
-         OLD_RPATH "/opt/ros/humble/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_typesupport_cpp.so")
@@ -275,7 +275,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so")
@@ -298,7 +298,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so")
@@ -321,7 +321,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_generator_py/roboworks_brain_interfaces:/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/roboworks_brain_interfaces/roboworks_brain_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so")
@@ -344,7 +344,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_py.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_py.so"
-         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:"
+         OLD_RPATH "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces:/opt/ros/humble/lib:/home/jasper/RoboWorks_Comp_Team/taskOptimzer/install/atwork_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libroboworks_brain_interfaces__rosidl_generator_py.so")
@@ -361,10 +361,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/Navigation.idl")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_adapter/roboworks_brain_interfaces/srv/TaskOpt.idl")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -389,18 +385,6 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/Navigation_Response.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/src/roboworks_brain_interfaces/srv/TaskOpt.srv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/TaskOpt_Request.msg")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roboworks_brain_interfaces/srv" TYPE FILE FILES "/home/jasper/RoboWorks_Comp_Team/brain/build/roboworks_brain_interfaces/rosidl_cmake/srv/TaskOpt_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

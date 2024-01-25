@@ -7,4 +7,3 @@ roboworks_brain_interfaces.egg-info/top_level.txt
 roboworks_brain_interfaces/srv/__init__.py
 roboworks_brain_interfaces/srv/_arm_brain.py
 roboworks_brain_interfaces/srv/_navigation.py
-roboworks_brain_interfaces/srv/_task_opt.py
